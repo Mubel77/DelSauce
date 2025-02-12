@@ -1,0 +1,33 @@
+---
+const { carrusel } = Astro.props;
+let currentIndex: number = 0;
+
+function nextSlide(): void {
+  currentIndex = (currentIndex + 1) % carrusel.imagenes.length;
+}
+
+function goToSlide(index: number): void {
+  currentIndex = index;
+}
+
+setInterval(nextSlide, 2000);
+---
+
+<div class="relative w-full max-w-lg mx-auto overflow-hidden">
+  <div class="carousel-inner flex transition-transform duration-700 ease-in-out" style={`transform: translateX(-${currentIndex * 100}%)`}>
+    {carrusel.imagenes.map((item: { imagen: string }, index: number) => (
+      <div class="w-full flex-shrink-0" key={index}>
+        <img src={item.imagen} alt={`Slide ${index + 1}`} class="w-full h-auto object-cover" />
+        <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+          <h3 class="text-white font-bold text-xl">{carrusel.titulo}</h3>
+        </div>
+      </div>
+    ))}
+  </div>
+  <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+    {carrusel.imagenes.map((_: unknown, index: number) => (
+      <button onclick={() => goToSlide(index)}
+              class="w-3 h-3 rounded-full bg-gray-400" data-index={index} key={index}></button>
+    ))}
+  </div>
+</div>

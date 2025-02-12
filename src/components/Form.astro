@@ -1,0 +1,53 @@
+<section class="bg-[#F0F0E5] py-12">
+  <div class="container mx-auto px-6">
+    <h2 class="text-4xl font-bold text-[#8A8D6D] text-center mb-8">Contáctanos</h2>
+    <p class="text-gray-700 text-center mb-8 max-w-2xl mx-auto">
+      ¿Tienes alguna consulta o sugerencia? ¡Nos encantaría escucharte! Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.
+    </p>
+    <!-- Formulario -->
+    <form class="bg-white rounded-lg shadow-lg p-8 max-w-2xl mx-auto">
+      <div class="mb-6">
+        <label for="name" class="block text-gray-700 font-semibold mb-2">Nombre</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Ingresa tu nombre"
+          class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#A0A38A]"
+          required
+        />
+      </div>
+
+      <div class="mb-6">
+        <label for="email" class="block text-gray-700 font-semibold mb-2">Correo Electrónico</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="tucorreo@ejemplo.com"
+          class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#A0A38A]"
+          required
+        />
+      </div>
+
+      <div class="mb-6">
+        <label for="message" class="block text-gray-700 font-semibold mb-2">Mensaje</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          placeholder="Escribe tu mensaje aquí"
+          class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#A0A38A]"
+          required
+        ></textarea>
+      </div>
+
+      <button
+        type="submit"
+        class="w-full bg-[#8A8D6D] hover:bg-[#6C6F50] text-white font-bold py-3 rounded-lg transition duration-300"
+      >
+        Enviar Mensaje
+      </button>
+    </form>
+  </div>
+</section>

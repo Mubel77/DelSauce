@@ -1,0 +1,19 @@
+---
+const {dataProducts} = Astro.props
+---
+
+<section class="py-12">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-8">{dataProducts.titulo}</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Tarjeta de Producto -->
+        {dataProducts.productos.map((prodcuto:any, i: number) => (
+          <div class="flex flex-col items-center">
+            <img src={prodcuto.imagenPrincipal} alt={prodcuto.titulo} class="w-40 h-40" />
+            <p class="mt-4 text-gray-700">{prodcuto.titulo}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+  

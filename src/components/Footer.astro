@@ -1,0 +1,30 @@
+---
+const {navbarItems, networks} = Astro.props
+---
+
+<footer class="bg-black text-white py-8 px-6 mt-32">
+    <div class="text-center">
+        <h3 class="text-lg font-medium mb-6">Mapa del sitio</h3>
+        <div class="flex justify-center flex-wrap font-light gap-5">
+            {navbarItems.map((item: {titulo: string, link: string}, i: number) => (
+                <div>
+                    <a href={ '#' + item.link.toLocaleLowerCase() } class=" font-normal mr-5 hover:underline">
+                        {item.titulo}
+                    </a>
+                    {(i + 1) < navbarItems.length && <span>|</span> }
+                </div>
+            ))}
+        </div>
+    </div>
+
+    <div class="mt-8 text-center">
+        <h4 class="text-md font-medium mb-4">Síguenos</h4>
+        <div class="flex justify-center space-x-6 text-xl">
+        {networks.map((redSocial: {link: string, imagen: string, nombreRedSocial: string}, i: number) => (
+            <a href={redSocial.link} class="hover:text-gray-400">
+                <img src={redSocial.imagen} alt={redSocial.nombreRedSocial} width={30} height={30} />
+            </a>  
+        ))}
+        </div>
+    </div>
+</footer>

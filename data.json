@@ -1,0 +1,152 @@
+{
+    "header":{
+        "logo": "/Logo_Sauce.png",
+        "navbar":[
+            {
+                "titulo":"Inicio",
+                "link":"/#inicio"
+            },
+            {
+                "titulo":"Productos",
+                "link":"/#productos"
+            },
+            {
+                "titulo": "Sobre Nosotros",
+                "link": "/#nosotros"
+            }
+            ,
+            {
+                "titulo": "Contacto",
+                "link": "/#contacto"
+            }
+        ]
+    },
+    "hero":{
+        "titulo":"Nueva Medialuna!",
+        "descripcion":"Prueba ya las nuevas Pap's con un nuevo sabor",
+        "imagen":"/src/assets/IMG_MEDIALUNA.png",
+        "boton": "¡Pide ya!"
+    },
+    "carrusel": {
+    "titulo": "Mi Carrusel",
+    "imagenes": [
+      { "imagen": "./src/assets/imageOne.png" },
+      { "imagen": "./src/assets/imageOne.png" },
+      { "imagen": "./src/assets/IMG_MEDIALUNA.png" }
+    ]
+  },
+    "redesSociales":[
+        {
+            "nombreRedSocial":"LinkedIn",
+            "imagen":"/linkedin.svg",
+            "link":""
+        },
+        {
+            "nombreRedSocial":"Gmail",
+            "imagen":"/gmail.svg",
+            "link":""
+        },
+        {
+            "nombreRedSocial":"Whatsapp",
+            "imagen":"/whatsapp.svg",
+            "link":""
+        }
+    ],
+    "productos":{
+        "titulo":"Productos",
+        "productos": [
+            {
+                "titulo":"Vainilla IceCream",
+                "descripcion":"",
+                "precio":"",
+                "imagenes":[
+    
+                ],
+                "imagenPrincipal":"./src/assets/imageOne.png"
+            },
+            {
+                "titulo":"Vainilla IceCream",
+                "descripcion":"",
+                "precio":"",
+                "imagenes":[
+    
+                ],
+                "imagenPrincipal":"./src/assets/imageOne.png"
+            },
+            {
+                "titulo":"Vainilla IceCream",
+                "descripcion":"",
+                "precio":"",
+                "imagenes":[
+    
+                ],
+                "imagenPrincipal":"./src/assets/imageOne.png"
+            },
+            {
+                "titulo":"Vainilla IceCream",
+                "descripcion":"",
+                "precio":"",
+                "imagenes":[
+    
+                ],
+                "imagenPrincipal":"./src/assets/imageOne.png"
+            },
+            {
+                "titulo":"Vainilla IceCream",
+                "descripcion":"",
+                "precio":"",
+                "imagenes":[
+    
+                ],
+                "imagenPrincipal":"./src/assets/imageOne.png"
+            },
+            {
+                "titulo":"Vainilla IceCream",
+                "descripcion":"",
+                "precio":"",
+                "imagenes":[
+    
+                ],
+                "imagenPrincipal":"./src/assets/imageOne.png"
+            }
+        ]
+    },
+    "quienesSomos":{
+        "titulo":"",
+        "descripcion":""
+    },
+    "opiniones":{
+		"titulo": "Testimonios",
+		"listaDeDatos":[
+			{
+				"imagen":"",
+				"nombreCompleto":"Daniel Campos",
+				"localidad":"Remedios de escalada",
+				"opinion":"Esta es una opinion o testimonio acerca de algo, o algun servicio dado",
+				"estrellas":5
+			},
+			{
+				"imagen":"",
+				"nombreCompleto":"Daniel Campos",
+				"localidad":"Remedios de escalada",
+				"opinion":"Esta es una opinion o testimonio acerca de algo, o algun servicio dado",
+				"estrellas":5
+			},
+			{
+				"imagen":"",
+				"nombreCompleto":"Daniel Campos",
+				"localidad":"Remedios de escalada",
+				"opinion":"Esta es una opinion o testimonio acerca de algo, o algun servicio dado",
+				"estrellas":5
+			}
+		]
+	},
+    "footer":{
+        "logo":"",
+        "titulo":""
+    },
+    "whatsapp":{
+        "whatsapp":"",
+        "whatsappImagen":"/whatsapp.svg"
+    }
+}
