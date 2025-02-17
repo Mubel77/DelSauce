@@ -1,6 +1,6 @@
 {
     "header":{
-        "logo": "/Logo_Sauce.png",
+        "logo": "/Product/DelSauce/imagesDelSauce/LogoSauce.svg",
         "navbar":[
             {
                 "titulo":"Inicio",
@@ -26,6 +26,10 @@
         "descripcion":"Prueba ya las nuevas Pap's con un nuevo sabor",
         "imagen":"/src/assets/IMG_MEDIALUNA.png",
         "boton": "¡Pide ya!"
+    },
+    "QuienesSomos":{
+        "titulo":"Nueva Medialuna!",
+        "descripcion":"Prueba ya las nuevas Pap's con un nuevo sabor"
     },
     "carrusel": {
     "titulo": "Mi Carrusel",

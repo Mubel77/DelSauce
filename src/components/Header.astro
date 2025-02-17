@@ -2,7 +2,7 @@
 const { dataHeader } = Astro.props
 ---
 
-<header class="bg-[#8A8D6D] shadow-md w-full fixed top-0 z-50 flex items-center justify-center">
+<header class="bg-[#5F342C] shadow-md w-full fixed top-0 z-50 flex items-center justify-center">
   <nav class="flex justify-between items-center w-full px-10 h-16 relative">
     <!-- Logo -->
     <img src={dataHeader.logo} width={60} alt="Logo">
@@ -18,31 +18,22 @@ const { dataHeader } = Astro.props
 
     <!-- Mobile Menu Button -->
     <button 
-      id="menu-toggle" 
-      class="md:hidden p-2 focus:outline-none z-50 relative" 
-      aria-label="Toggle menu"
-    >
-      <svg 
-        id="menu-icon" 
-        class="w-6 h-6" 
-        fill="none" 
-        stroke="currentColor" 
-        viewBox="0 0 24 24"
-      >
-        <path 
-          id="menu-path" 
-          stroke-linecap="round" 
-          stroke-linejoin="round" 
-          stroke-width="2" 
-          d="M4 6h16M4 12h16M4 18h16" 
-        />
-      </svg>
-    </button>
+    id="menu-toggle" 
+    class="md:hidden p-2 focus:outline-none z-50 relative" 
+    aria-label="Toggle menu"
+  >
+    <img 
+      id="menu-icon" 
+      src="/Product/DelSauce/imagesDelSauce/hambuguer.png" 
+      alt="Menú" 
+      class="w-8 h-8"
+    />
+  </button>
 
     <!-- Mobile Navigation -->
     <ul 
       id="mobile-menu" 
-      class="hidden fixed inset-0 bg-[#D4E4FE] flex-col justify-center items-center gap-12 transition-all duration-300 z-40"
+      class="hidden fixed inset-0 bg-[#5F342C] flex-col justify-center items-center gap-12 transition-all duration-300 z-40"
     >
       {dataHeader.navbar.map((item: { titulo: string, link: string }, i: number) => (
         <li>
