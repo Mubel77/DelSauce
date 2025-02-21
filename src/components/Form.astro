@@ -1,52 +1,59 @@
-<section class="bg-[#F0F0E5] py-12">
+<section class="bg-[#D4BDA4] py-12">
   <div class="container mx-auto px-6">
-    <h2 class="text-4xl font-bold text-[#8A8D6D] text-center mb-8">Contáctanos</h2>
-    <p class="text-gray-700 text-center mb-8 max-w-2xl mx-auto">
+    <h2 class="text-4xl font-bold text-[#5A2E1B] text-center mb-8">Contactanos</h2>
+    <p class="text-[#5A2E1B] text-center mb-8 max-w-2xl mx-auto">
       ¿Tienes alguna consulta o sugerencia? ¡Nos encantaría escucharte! Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.
     </p>
-    <!-- Formulario -->
-    <form class="bg-white rounded-lg shadow-lg p-8 max-w-2xl mx-auto">
+    <form class="bg-[#E7D2B9] rounded-lg shadow-lg p-8 max-w-md mx-auto">
       <div class="mb-6">
-        <label for="name" class="block text-gray-700 font-semibold mb-2">Nombre</label>
+        <label for="name" class="block text-[#5A2E1B] font-semibold mb-2">Nombre</label>
         <input
           type="text"
           id="name"
           name="name"
           placeholder="Ingresa tu nombre"
-          class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#A0A38A]"
+          class="w-full border border-[#5A2E1B] bg-[#F3E5D8] rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#8A5A44]"
           required
         />
       </div>
-
       <div class="mb-6">
-        <label for="email" class="block text-gray-700 font-semibold mb-2">Correo Electrónico</label>
+        <label for="email" class="block text-[#5A2E1B] font-semibold mb-2">Email</label>
         <input
           type="email"
           id="email"
           name="email"
-          placeholder="tucorreo@ejemplo.com"
-          class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#A0A38A]"
+          placeholder="Ingresa tu email"
+          class="w-full border border-[#5A2E1B] bg-[#F3E5D8] rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#8A5A44]"
           required
         />
       </div>
-
       <div class="mb-6">
-        <label for="message" class="block text-gray-700 font-semibold mb-2">Mensaje</label>
+        <label for="subject" class="block text-[#5A2E1B] font-semibold mb-2">Asunto</label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="Escribe el asunto"
+          class="w-full border border-[#5A2E1B] bg-[#F3E5D8] rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#8A5A44]"
+          required
+        />
+      </div>
+      <div class="mb-6">
+        <label for="message" class="block text-[#5A2E1B] font-semibold mb-2">Mensaje</label>
         <textarea
           id="message"
           name="message"
           rows="4"
-          placeholder="Escribe tu mensaje aquí"
-          class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#A0A38A]"
+          placeholder="Ingresa tu mensaje"
+          class="w-full border border-[#5A2E1B] bg-[#F3E5D8] rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#8A5A44]"
           required
         ></textarea>
       </div>
-
       <button
         type="submit"
-        class="w-full bg-[#8A8D6D] hover:bg-[#6C6F50] text-white font-bold py-3 rounded-lg transition duration-300"
+        class="w-full bg-[#5A2E1B] hover:bg-[#3D1F12] text-white font-bold py-3 rounded-lg transition duration-300"
       >
-        Enviar Mensaje
+        Enviar
       </button>
     </form>
   </div>

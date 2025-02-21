@@ -1,0 +1,21 @@
+---
+const { dataProducts } = Astro.props;
+---
+
+<section class="py-12">
+  <div class="container mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-8">Sandwichería y Catering</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {dataProducts.map((producto, i) => (
+        <div class="flex flex-col items-center">
+          <img src={producto.imagenPrincipal} alt={producto.titulo} class="w-40 h-40" />
+          <p class="mt-4 text-gray-700">{producto.titulo}</p>
+          <button class="mt-6 bg-[#5c3d2e] hover:bg-[#3e2b23] text-white px-6 py-2 rounded"
+            onclick="window.location.href='/productos'">
+            Contactar
+          </button>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

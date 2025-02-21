@@ -1,25 +1,27 @@
 ---
 import Header from '../components/Header.astro';
-import HeroSection from '../components/HeroSection.astro';
-import ProductSection from '../components/ProductSection.astro';
 import Layout from '../layouts/Layout.astro';
-import data from '../../data.json'
+import data from '../../data.json';
 import Footer from '../components/Footer.astro';
 import ButtonWhatsapp from '../components/ButtonWhatsapp.astro';
 import Opinions from '../components/Opinions.astro';
 import Whowe from '../components/Whowe.astro';
 import Form from '../components/Form.astro';
 import Carusel from '../components/Carusel.astro';
+import Servicios from '../components/Servicios.astro';
+import Producto from '../components/Producto.astro';
+import Ubicacion from '../components/Ubicacion.astro';
 ---
 
 <Layout>
     <Header dataHeader={data.header} />
-    <HeroSection dataHero={data.hero} />
     <Carusel carrusel={data.carrusel} />
-    <Whowe/>
-    <ProductSection dataProducts={data.productos} />
+    <Whowe />
+    <Servicios servicios={data.servicios} />
+    <Producto productos={data.producto} />
     <Opinions opinions={data.opiniones} />
-    <Form  />
+    <Form />
+    <Ubicacion dataContact={data.dataContact} />
     <Footer navbarItems={data.header.navbar} networks={data.redesSociales} />
     <ButtonWhatsapp whatsapp={data.whatsapp.whatsapp} whatsappImage={data.whatsapp.whatsappImagen} />
 </Layout>

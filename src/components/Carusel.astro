@@ -1,33 +1,61 @@
 ---
+// Cargando el componente de Astro con la propiedad carrusel
 const { carrusel } = Astro.props;
-let currentIndex: number = 0;
-
-function nextSlide(): void {
-  currentIndex = (currentIndex + 1) % carrusel.imagenes.length;
-}
-
-function goToSlide(index: number): void {
-  currentIndex = index;
-}
-
-setInterval(nextSlide, 2000);
 ---
-
-<div class="relative w-full max-w-lg mx-auto overflow-hidden">
-  <div class="carousel-inner flex transition-transform duration-700 ease-in-out" style={`transform: translateX(-${currentIndex * 100}%)`}>
+<div class="relative w-full max-w-[91rem] mx-auto overflow-hidden h-[270px] sm:h-[500px] md:h-[554px] lg:h-[595px]">
+  <div class="carousel-inner flex transition-transform duration-700 ease-in-out" id="carousel" style={`transform: translateX(0%)`}>
     {carrusel.imagenes.map((item: { imagen: string }, index: number) => (
-      <div class="w-full flex-shrink-0" key={index}>
-        <img src={item.imagen} alt={`Slide ${index + 1}`} class="w-full h-auto object-cover" />
+      <div class="w-full h-full flex-shrink-0 relative" key={index}>
+        <img src={item.imagen} alt={`Slide ${index + 1}`} class="w-full h-full object-cover block" />
         <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <h3 class="text-white font-bold text-xl">{carrusel.titulo}</h3>
+          <h3 class="text-white font-bold text-2xl text-center p-4">{carrusel.titulo}</h3>
         </div>
       </div>
     ))}
   </div>
-  <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+  <div class="carousel-indicator absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
     {carrusel.imagenes.map((_: unknown, index: number) => (
-      <button onclick={() => goToSlide(index)}
-              class="w-3 h-3 rounded-full bg-gray-400" data-index={index} key={index}></button>
+      <button class="w-3 h-3 rounded-full bg-gray-400" data-index={index} key={index}></button>
     ))}
   </div>
 </div>
+
+<script type="module">
+  // Estado y funciones del carrusel
+  let currentIndex = 0;
+  const carruselElement = document.getElementById('carousel');
+  const buttons = document.querySelectorAll('.carousel-indicator button'); // Selecciona todos los botones
+
+  // Función para avanzar al siguiente slide
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % carruselElement.children.length; // Asegúrate de que el número de slides es correcto
+    updateCarousel();
+  }
+
+  // Función para ir a un slide específico
+  function goToSlide(index) {
+    currentIndex = index;
+    updateCarousel();
+  }
+
+  // Función para actualizar la vista del carrusel
+  function updateCarousel() {
+    // Actualizar la transformación para mover el carrusel
+    carruselElement.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+    // Marcar el botón correspondiente como activo
+    buttons.forEach(button => button.classList.remove('bg-gray-600'));
+    buttons[currentIndex]?.classList.add('bg-gray-600');
+  }
+
+  // Agregar el evento de click a cada botón
+  buttons.forEach((button, index) => {
+    button.addEventListener('click', () => goToSlide(index));
+  });
+
+  // Iniciar el carrusel cada 2 segundos
+  setInterval(nextSlide, 2000);
+
+  // Actualizar el carrusel con el primer estado
+  updateCarousel();
+</script>

@@ -1,0 +1,25 @@
+---
+// Recibiendo la propiedad 'productos' de Astro.props
+const { productos } = Astro.props;
+---
+
+<section class="bg-[#d0b8a8] py-10">
+    <h2 class="text-center text-xl font-bold text-[#5c3d2e]">{productos.tituloSuperior}</h2>
+    <div class="flex flex-col md:flex-row items-center justify-center gap-10 p-5">
+        {Object.values(productos).slice(1).map(producto => (
+            <div class="text-center max-w-xs" key={producto.titulo}>
+                <img 
+                    src={producto.imagenes[0].imagen} 
+                    alt={producto.titulo} 
+                    class="mx-auto w-80 h-48 max-w-[70%] object-cover"
+                />
+                <h3 class="text-lg font-semibold text-[#5c3d2e]">{producto.titulo}</h3>
+                <p class="text-sm text-[#3e2b23]">{producto.descripcion}</p>
+                {/* Agregamos el enlace con href apuntando a productos.astro */}
+                <a href="/src/pages/productos/[Productos].astro" class="mt-6 bg-[#5c3d2e] hover:bg-[#3e2b23] text-white px-6 py-2 rounded">
+                    {producto.boton}
+                </a>
+            </div>
+        ))}
+    </div>  
+</section>

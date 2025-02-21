@@ -17,107 +17,205 @@
             ,
             {
                 "titulo": "Contacto",
-                "link": "/#contacto"
+                    "link": "/#contacto"
+                }
+            ]
+        },
+            "carrusel": {
+                "titulo": "Mi Carrusel",
+                "imagenes": [
+                { "imagen": "/Product/DelSauce/imagesDelSauce/fondeDelCarruse.png" },
+                { "imagen": "/Product/DelSauce/imagesDelSauce/catering.png" },
+                { "imagen": "/Product/DelSauce/imagesDelSauce/sandwich.png" }
+                ]
+            },
+                
+            "QuienesSomos":{
+                "titulo":"Quienes Somos",
+                "descripcion":" En Del Sauce, nos apasiona ofrecer experiencias deliciosas e inolvidables. Nos especializamos en la elaboración de panadería artesanal de calidad superior, sin conservantes, para que puedas disfrutar de nuestros productos frescos y auténticos en cualquier momento del día.",
+                "imagenes": [
+            { "imagen": "/Product/DelSauce/imagesDelSauce/manchaHeader.png" }
+                ] 
+            },
+            "servicios": {
+                "tituloSuperior": "SERVICIOS",
+                "pedidoPersonalizado": {
+                "titulo": "Pedidos Personalizados",
+                "descripcion": "Ofrecemos pedidos personalizados para que disfrutes de productos hechos especialmente para ti. Ya sea para una ocasión especial o simplemente para satisfacer tus gustos, puedes elegir entre una amplia variedad de opciones y adaptar nuestros productos a tus preferencias.",
+                "imagenes": [
+                    { "imagen": "/Product/DelSauce/imagesDelSauce/PASTELSVG.svg" }
+                ]
+                },
+                "delivery": {
+                "titulo": "Delivery",
+                "descripcion": " Para tu comodidad,contamos con servicio de delivery, llevando tus deliciosos pedidos directamente a tu puerta. Haz tu pedido hoy y disfruta de la frescura y sabor de nuestros productos, sin salir de casa.",
+                "imagenes": [
+                    { "imagen": "/Product/DelSauce/imagesDelSauce/DeliverySVG.svg" }
+                ]
+                }
+            },
+        "producto": {
+                "tituloSuperior": "PRODUCTOS",
+                "planificacion": {
+                "titulo": "PANIFICACION PARA EVENTOS ",
+                "descripcion": "Realizamos pedidos personalizados para cualquier ocasión. Contáctanos para más detalles.",
+                "imagenes": [
+                    { "imagen": "/Product/DelSauce/imagesDelSauce/planificacionDeFiesta.png" }
+                ],
+                "boton": "Contactar"
+                },
+                "sandwich": {
+                "titulo": "SANDWICHERIA Y CATERING",
+                "descripcion": "Llevamos tus productos favoritos hasta tu puerta con nuestro servicio de delivery.",
+                "imagenes": [
+                    { "imagen": "/Product/DelSauce/imagesDelSauce/sanmwich.png" }
+                ],
+                "boton": "Contactar"
+                }
+            },
+        "redesSociales":[
+            {
+                "nombreRedSocial":"LinkedIn",
+                "imagen":"/linkedin.svg",
+                "link":""
+            },
+            {
+                "nombreRedSocial":"Gmail",
+                "imagen":"/gmail.svg",
+                "link":""
+            },
+            {
+                "nombreRedSocial":"Whatsapp",
+                "imagen":"/whatsapp.svg",
+                "link":""
             }
-        ]
-    },
-    "hero":{
-        "titulo":"Nueva Medialuna!",
-        "descripcion":"Prueba ya las nuevas Pap's con un nuevo sabor",
-        "imagen":"/src/assets/IMG_MEDIALUNA.png",
-        "boton": "¡Pide ya!"
-    },
-    "QuienesSomos":{
-        "titulo":"Nueva Medialuna!",
-        "descripcion":"Prueba ya las nuevas Pap's con un nuevo sabor"
-    },
-    "carrusel": {
-    "titulo": "Mi Carrusel",
-    "imagenes": [
-      { "imagen": "./src/assets/imageOne.png" },
-      { "imagen": "./src/assets/imageOne.png" },
-      { "imagen": "./src/assets/IMG_MEDIALUNA.png" }
-    ]
-  },
-    "redesSociales":[
+        ],
+    "productos": {
+        "tituloSuperior": "Nuestros Productos",
+        "planificacionParaEventos": [
         {
-            "nombreRedSocial":"LinkedIn",
-            "imagen":"/linkedin.svg",
-            "link":""
+            "titulo": "Medialunas de Manteca y Facturas",
+            "descripcion": "Variedad de facturas: Crema pastelera, Dulce de leche, Crema pastelera y Chocolate, Membrillo.",
+            "imagenPrincipal": "./src/assets/medialuna.png"
         },
         {
-            "nombreRedSocial":"Gmail",
-            "imagen":"/gmail.svg",
-            "link":""
+            "titulo": "Figacitas de Manteca",
+            "descripcion": "Pequeñas figacitas de manteca, perfectas para acompañar cualquier comida.",
+            "imagenPrincipal": "./src/assets/figacitas.png"
         },
         {
-            "nombreRedSocial":"Whatsapp",
-            "imagen":"/whatsapp.svg",
-            "link":""
+            "titulo": "Fosforitos de Hojaldre",
+            "descripcion": "Crujientes bocados de hojaldre, ideales para reuniones y meriendas.",
+            "imagenPrincipal": "./src/assets/fosforitos.png"
+        },
+        {
+            "titulo": "Pancitos Chips",
+            "descripcion": "Mini pancitos crocantes para acompañar tus comidas.",
+            "imagenPrincipal": "./src/assets/pancitos_chips.png"
+        },
+        {
+            "titulo": "Pancitos con Semillas",
+            "descripcion": "Pan con una mezcla de semillas saludables.",
+            "imagenPrincipal": "./src/assets/pancitos_semillas.png"
+        },
+        {
+            "titulo": "Pizzetas",
+            "descripcion": "Mini pizzas listas para hornear.",
+            "imagenPrincipal": "./src/assets/pizzetas.png"
+        },
+        {
+            "titulo": "Prepizzas",
+            "descripcion": "Masa de pizza prehorneada lista para usar.",
+            "imagenPrincipal": "./src/assets/prepizzas.png"
+        },
+        {
+            "titulo": "Mini Bagels",
+            "descripcion": "Pequeños bagels ideales para sándwiches y picadas.",
+            "imagenPrincipal": "./src/assets/mini_bagels.png"
+        },
+        {
+            "titulo": "Cremonas",
+            "descripcion": "Pan hojaldrado típico, ideal para compartir.",
+            "imagenPrincipal": "./src/assets/cremonas.png"
+        },
+        {
+            "titulo": "Criollitos de Grasa",
+            "descripcion": "Clásicos criollitos de grasa, perfectos para el mate.",
+            "imagenPrincipal": "./src/assets/criollitos.png"
+        },
+        {
+            "titulo": "Galletas",
+            "descripcion": "Galletas caseras con variedad de sabores.",
+            "imagenPrincipal": "./src/assets/galletas.png"
+        },
+        {
+            "titulo": "Masitas Secas",
+            "descripcion": "Pequeñas masitas dulces ideales para la merienda.",
+            "imagenPrincipal": "./src/assets/masitas_secas.png"
+        },
+        {
+            "titulo": "Brownie",
+            "descripcion": "Delicioso brownie de chocolate.",
+            "imagenPrincipal": "./src/assets/brownie.png"
+        },
+        {
+            "titulo": "Pasta Frola",
+            "descripcion": "Tarta clásica de membrillo o batata.",
+            "imagenPrincipal": "./src/assets/pasta_frola.png"
         }
-    ],
-    "productos":{
-        "titulo":"Productos",
-        "productos": [
-            {
-                "titulo":"Vainilla IceCream",
-                "descripcion":"",
-                "precio":"",
-                "imagenes":[
-    
-                ],
-                "imagenPrincipal":"./src/assets/imageOne.png"
-            },
-            {
-                "titulo":"Vainilla IceCream",
-                "descripcion":"",
-                "precio":"",
-                "imagenes":[
-    
-                ],
-                "imagenPrincipal":"./src/assets/imageOne.png"
-            },
-            {
-                "titulo":"Vainilla IceCream",
-                "descripcion":"",
-                "precio":"",
-                "imagenes":[
-    
-                ],
-                "imagenPrincipal":"./src/assets/imageOne.png"
-            },
-            {
-                "titulo":"Vainilla IceCream",
-                "descripcion":"",
-                "precio":"",
-                "imagenes":[
-    
-                ],
-                "imagenPrincipal":"./src/assets/imageOne.png"
-            },
-            {
-                "titulo":"Vainilla IceCream",
-                "descripcion":"",
-                "precio":"",
-                "imagenes":[
-    
-                ],
-                "imagenPrincipal":"./src/assets/imageOne.png"
-            },
-            {
-                "titulo":"Vainilla IceCream",
-                "descripcion":"",
-                "precio":"",
-                "imagenes":[
-    
-                ],
-                "imagenPrincipal":"./src/assets/imageOne.png"
-            }
+        ],
+        "sandwicheriaYCatering": [
+        {
+            "titulo": "Sándwiches de Miga Triples",
+            "descripcion": "Clásicos sándwiches de miga en diversas variedades.",
+            "imagenPrincipal": "./src/assets/sandwich_miga.png"
+        },
+        {
+            "titulo": "Medialunas Rellenas de Jamón y Queso",
+            "descripcion": "Medialunas rellenas con jamón y queso, ideales para desayunos y meriendas.",
+            "imagenPrincipal": "./src/assets/medialuna_jamon_queso.png"
+        },
+        {
+            "titulo": "Fosforitos de Hojaldre Rellenos de Jamón y Queso",
+            "descripcion": "Hojaldre crujiente con relleno de jamón y queso.",
+            "imagenPrincipal": "./src/assets/fosforitos_jamon_queso.png"
+        },
+        {
+            "titulo": "Pizzetas Prelistas",
+            "descripcion": "Mini pizzas listas para hornear con variedad de ingredientes.",
+            "imagenPrincipal": "./src/assets/pizzetas.png"
+        },
+        {
+            "titulo": "Prepizzas Prelistas",
+            "descripcion": "Base de pizza prelista para preparar a gusto.",
+            "imagenPrincipal": "./src/assets/prepizzas.png"
+        },
+        {
+            "titulo": "Empanadas Tradicionales",
+            "descripcion": "Variedades: Carne Suave, Pollo, Jamón y Queso, Verdura y Queso, Humita y Queso, Queso y Cebolla.",
+            "imagenPrincipal": "./src/assets/empanadas.png"
+        },
+        {
+            "titulo": "Pancitos Chips Rellenos",
+            "descripcion": "Variedades: Jamón y Queso, Salame y Queso.",
+            "imagenPrincipal": "./src/assets/pancitos_chips_rellenos.png"
+        },
+        {
+            "titulo": "Pancitos Saborizados Surtidos",
+            "descripcion": "Variedades: Jamón y Queso, Queso y Huevo, Caprese, Jamón y Tomate.",
+            "imagenPrincipal": "./src/assets/pancitos_saborizados.png"
+        },
+        {
+            "titulo": "Figacitas de Manteca Rellenas",
+            "descripcion": "Figacitas rellenas con milanesa de peceto o carne feteada.",
+            "imagenPrincipal": "./src/assets/figacitas_rellenas.png"
+        },
+        {
+            "titulo": "Bagels con Amapolas",
+            "descripcion": "Bagels con semillas de amapola rellenos de jamón crudo y queso.",
+            "imagenPrincipal": "./src/assets/bagels_amapolas.png"
+        }
         ]
-    },
-    "quienesSomos":{
-        "titulo":"",
-        "descripcion":""
     },
     "opiniones":{
 		"titulo": "Testimonios",
@@ -145,12 +243,19 @@
 			}
 		]
 	},
+    "dataContact": {
+          "titulo": "Ubicación",
+          "telefono": "1166505422",
+          "email": "infodelsauce@gmail.com",
+          "mapsDireccion": "Suipacha 263",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.2172524591147!2d-58.376430588961796!3d-34.9762225727097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd2cab0592d9e5%3A0x383bf0069e82b31d!2sSuipacha%20355%2C%20B1864%20Alejandro%20Korn%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1739840028426!5m2!1ses!2sar"
+    },
     "footer":{
         "logo":"",
         "titulo":""
     },
     "whatsapp":{
-        "whatsapp":"",
+        "whatsapp": "https://api.whatsapp.com/send?phone=5491166505422",
         "whatsappImagen":"/whatsapp.svg"
     }
 }

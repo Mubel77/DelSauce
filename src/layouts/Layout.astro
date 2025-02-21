@@ -1,14 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="en"
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		
+		<script src="https://kit.fontawesome.com/02c71d156f.js" crossorigin="anonymous"></script>
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
 	</head>
-	<body>
+	<body class ="bg-[#CCBCAA]">
 		<slot />
 	</body>
 </html>
@@ -17,4 +17,9 @@
 	@tailwind base;
 	@tailwind components;
 	@tailwind utilities;
+	  /* Configurar la fuente globalmente */
+	  body {
+    font-family: 'Lora', serif;
+    font-weight: 600; /* Semibold */
+  }
 </style>

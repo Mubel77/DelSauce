@@ -1,0 +1,20 @@
+---
+// filepath: /c:/Users/estudiante/Desktop/Mauricio/delSauce/src/pages/productos/[Productos].astro
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import ButtonWhatsapp from '../../components/ButtonWhatsapp.astro';
+import data from '../../data/data.json';
+import PlanificacionParaEventos from '../../components/PlanificacionParaEventos.astro';
+import SandwicheriaYCatering from '../../components/SandwicheriaYCatering.astro';
+---
+
+<Header dataHeader={data.header} />
+
+<section class="bg-[#d0b8a8] py-10">
+  <h2 class="text-center text-xl font-bold text-[#5c3d2e]">{data.productos.tituloSuperior}</h2>
+  <PlanificacionParaEventos dataProducts={data.productos.planificacionParaEventos} />
+  <SandwicheriaYCatering dataProducts={data.productos.sandwicheriaYCatering} />
+</section>
+
+<Footer navbarItems={data.header.navbar} networks={data.redesSociales} />
+<ButtonWhatsapp whatsapp={data.whatsapp.whatsapp} whatsappImage={data.whatsapp.whatsappImagen} />
