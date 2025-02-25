@@ -7,17 +7,20 @@
                 "link":"/#inicio"
             },
             {
+                "titulo": "Sobre Nosotros",
+                "link": "/#nosotros"
+            },
+            {
+                "titulo":"Servicios",
+                "link":"/#Servicios"
+            },
+            {
                 "titulo":"Productos",
                 "link":"/#productos"
             },
             {
-                "titulo": "Sobre Nosotros",
-                "link": "/#nosotros"
-            }
-            ,
-            {
                 "titulo": "Contacto",
-                    "link": "/#contacto"
+                    "link": "/#Cosulta"
                 }
             ]
         },
@@ -57,7 +60,7 @@
         "producto": {
                 "tituloSuperior": "PRODUCTOS",
                 "planificacion": {
-                "titulo": "PANIFICACION PARA EVENTOS ",
+                "titulo": "PlANIFICACION PARA EVENTOS ",
                 "descripcion": "Realizamos pedidos personalizados para cualquier ocasión. Contáctanos para más detalles.",
                 "imagenes": [
                     { "imagen": "/Product/DelSauce/imagesDelSauce/planificacionDeFiesta.png" }
@@ -90,133 +93,134 @@
                 "link":""
             }
         ],
-    "productos": {
-        "tituloSuperior": "Nuestros Productos",
-        "planificacionParaEventos": [
-        {
-            "titulo": "Medialunas de Manteca y Facturas",
-            "descripcion": "Variedad de facturas: Crema pastelera, Dulce de leche, Crema pastelera y Chocolate, Membrillo.",
-            "imagenPrincipal": "./src/assets/medialuna.png"
-        },
-        {
-            "titulo": "Figacitas de Manteca",
-            "descripcion": "Pequeñas figacitas de manteca, perfectas para acompañar cualquier comida.",
-            "imagenPrincipal": "./src/assets/figacitas.png"
-        },
-        {
-            "titulo": "Fosforitos de Hojaldre",
-            "descripcion": "Crujientes bocados de hojaldre, ideales para reuniones y meriendas.",
-            "imagenPrincipal": "./src/assets/fosforitos.png"
-        },
-        {
-            "titulo": "Pancitos Chips",
-            "descripcion": "Mini pancitos crocantes para acompañar tus comidas.",
-            "imagenPrincipal": "./src/assets/pancitos_chips.png"
-        },
-        {
-            "titulo": "Pancitos con Semillas",
-            "descripcion": "Pan con una mezcla de semillas saludables.",
-            "imagenPrincipal": "./src/assets/pancitos_semillas.png"
-        },
-        {
-            "titulo": "Pizzetas",
-            "descripcion": "Mini pizzas listas para hornear.",
-            "imagenPrincipal": "./src/assets/pizzetas.png"
-        },
-        {
-            "titulo": "Prepizzas",
-            "descripcion": "Masa de pizza prehorneada lista para usar.",
-            "imagenPrincipal": "./src/assets/prepizzas.png"
-        },
-        {
-            "titulo": "Mini Bagels",
-            "descripcion": "Pequeños bagels ideales para sándwiches y picadas.",
-            "imagenPrincipal": "./src/assets/mini_bagels.png"
-        },
-        {
-            "titulo": "Cremonas",
-            "descripcion": "Pan hojaldrado típico, ideal para compartir.",
-            "imagenPrincipal": "./src/assets/cremonas.png"
-        },
-        {
-            "titulo": "Criollitos de Grasa",
-            "descripcion": "Clásicos criollitos de grasa, perfectos para el mate.",
-            "imagenPrincipal": "./src/assets/criollitos.png"
-        },
-        {
-            "titulo": "Galletas",
-            "descripcion": "Galletas caseras con variedad de sabores.",
-            "imagenPrincipal": "./src/assets/galletas.png"
-        },
-        {
-            "titulo": "Masitas Secas",
-            "descripcion": "Pequeñas masitas dulces ideales para la merienda.",
-            "imagenPrincipal": "./src/assets/masitas_secas.png"
-        },
-        {
-            "titulo": "Brownie",
-            "descripcion": "Delicioso brownie de chocolate.",
-            "imagenPrincipal": "./src/assets/brownie.png"
-        },
-        {
-            "titulo": "Pasta Frola",
-            "descripcion": "Tarta clásica de membrillo o batata.",
-            "imagenPrincipal": "./src/assets/pasta_frola.png"
-        }
-        ],
-        "sandwicheriaYCatering": [
-        {
-            "titulo": "Sándwiches de Miga Triples",
-            "descripcion": "Clásicos sándwiches de miga en diversas variedades.",
-            "imagenPrincipal": "./src/assets/sandwich_miga.png"
-        },
-        {
-            "titulo": "Medialunas Rellenas de Jamón y Queso",
-            "descripcion": "Medialunas rellenas con jamón y queso, ideales para desayunos y meriendas.",
-            "imagenPrincipal": "./src/assets/medialuna_jamon_queso.png"
-        },
-        {
-            "titulo": "Fosforitos de Hojaldre Rellenos de Jamón y Queso",
-            "descripcion": "Hojaldre crujiente con relleno de jamón y queso.",
-            "imagenPrincipal": "./src/assets/fosforitos_jamon_queso.png"
-        },
-        {
-            "titulo": "Pizzetas Prelistas",
-            "descripcion": "Mini pizzas listas para hornear con variedad de ingredientes.",
-            "imagenPrincipal": "./src/assets/pizzetas.png"
-        },
-        {
-            "titulo": "Prepizzas Prelistas",
-            "descripcion": "Base de pizza prelista para preparar a gusto.",
-            "imagenPrincipal": "./src/assets/prepizzas.png"
-        },
-        {
-            "titulo": "Empanadas Tradicionales",
-            "descripcion": "Variedades: Carne Suave, Pollo, Jamón y Queso, Verdura y Queso, Humita y Queso, Queso y Cebolla.",
-            "imagenPrincipal": "./src/assets/empanadas.png"
-        },
-        {
-            "titulo": "Pancitos Chips Rellenos",
-            "descripcion": "Variedades: Jamón y Queso, Salame y Queso.",
-            "imagenPrincipal": "./src/assets/pancitos_chips_rellenos.png"
-        },
-        {
-            "titulo": "Pancitos Saborizados Surtidos",
-            "descripcion": "Variedades: Jamón y Queso, Queso y Huevo, Caprese, Jamón y Tomate.",
-            "imagenPrincipal": "./src/assets/pancitos_saborizados.png"
-        },
-        {
-            "titulo": "Figacitas de Manteca Rellenas",
-            "descripcion": "Figacitas rellenas con milanesa de peceto o carne feteada.",
-            "imagenPrincipal": "./src/assets/figacitas_rellenas.png"
-        },
-        {
-            "titulo": "Bagels con Amapolas",
-            "descripcion": "Bagels con semillas de amapola rellenos de jamón crudo y queso.",
-            "imagenPrincipal": "./src/assets/bagels_amapolas.png"
-        }
-        ]
-    },
+            "productos": {
+              "tituloSuperior": "Nuestros Productos",
+              "planificacionParaEventos": {
+                "medialunasDeMantecaYFacturas": {
+                  "titulo": "Medialunas de Manteca y Facturas",
+                  "descripcion": "Variedad de facturas: Crema pastelera, Dulce de leche, Crema pastelera y Chocolate, Membrillo.",
+                  "imagenPrincipal": "/assets/medialuna.png"
+                },
+                "figacitasDeManteca": {
+                  "titulo": "Figacitas de Manteca",
+                  "descripcion": "Pequeñas figacitas de manteca, perfectas para acompañar cualquier comida.",
+                  "imagenPrincipal": "/assets/figacitas.png"
+                },
+                "fosforitosDeHojaldre": {
+                  "titulo": "Fosforitos de Hojaldre",
+                  "descripcion": "Crujientes bocados de hojaldre, ideales para reuniones y meriendas.",
+                  "imagenPrincipal": "/assets/fosforitos.png"
+                },
+                "pancitosChips": {
+                  "titulo": "Pancitos Chips",
+                  "descripcion": "Mini pancitos crocantes para acompañar tus comidas.",
+                  "imagenPrincipal": "/assets/pancitos_chips.png"
+                },
+                "pancitosConSemillas": {
+                  "titulo": "Pancitos con Semillas",
+                  "descripcion": "Pan con una mezcla de semillas saludables.",
+                  "imagenPrincipal": "/assets/pancitos_semillas.png"
+                },
+                "pizzetas": {
+                  "titulo": "Pizzetas",
+                  "descripcion": "Mini pizzas listas para hornear.",
+                  "imagenPrincipal": "/assets/pizzetas.png"
+                },
+                "prepizzas": {
+                  "titulo": "Prepizzas",
+                  "descripcion": "Masa de pizza prehorneada lista para usar.",
+                  "imagenPrincipal": "/assets/prepizzas.png"
+                },
+                "miniBagels": {
+                  "titulo": "Mini Bagels",
+                  "descripcion": "Pequeños bagels ideales para sándwiches y picadas.",
+                  "imagenPrincipal": "/assets/mini_bagels.png"
+                },
+                "cremonas": {
+                  "titulo": "Cremonas",
+                  "descripcion": "Pan hojaldrado típico, ideal para compartir.",
+                  "imagenPrincipal": "/assets/cremonas.png"
+                },
+                "criollitosDeGrasa": {
+                  "titulo": "Criollitos de Grasa",
+                  "descripcion": "Clásicos criollitos de grasa, perfectos para el mate.",
+                  "imagenPrincipal": "/assets/criollitos.png"
+                },
+                "galletas": {
+                  "titulo": "Galletas",
+                  "descripcion": "Galletas caseras con variedad de sabores.",
+                  "imagenPrincipal": "/assets/galletas.png"
+                },
+                "masitasSecas": {
+                  "titulo": "Masitas Secas",
+                  "descripcion": "Pequeñas masitas dulces ideales para la merienda.",
+                  "imagenPrincipal": "/assets/masitas_secas.png"
+                },
+                "brownie": {
+                  "titulo": "Brownie",
+                  "descripcion": "Delicioso brownie de chocolate.",
+                  "imagenPrincipal": "/assets/brownie.png"
+                },
+                "pastaFrola": {
+                  "titulo": "Pasta Frola",
+                  "descripcion": "Tarta clásica de membrillo o batata.",
+                  "imagenPrincipal": "/assets/pasta_frola.png"
+                }
+              },
+              "sandwicheriaYCatering": {
+                "sandwichesDeMigaTriples": {
+                  "titulo": "Sándwiches de Miga Triples",
+                  "descripcion": "Clásicos sándwiches de miga en diversas variedades.",
+                  "imagenPrincipal": "/assets/sandwich_miga.png"
+                },
+                "medialunasRellenasDeJamonYQueso": {
+                  "titulo": "Medialunas Rellenas de Jamón y Queso",
+                  "descripcion": "Medialunas rellenas con jamón y queso, ideales para desayunos y meriendas.",
+                  "imagenPrincipal": "/assets/medialuna_jamon_queso.png"
+                },
+                "fosforitosDeHojaldreRellenosDeJamonYQueso": {
+                  "titulo": "Fosforitos de Hojaldre Rellenos de Jamón y Queso",
+                  "descripcion": "Hojaldre crujiente con relleno de jamón y queso.",
+                  "imagenPrincipal": "/assets/fosforitos_jamon_queso.png"
+                },
+                "pizzetasPrelistas": {
+                  "titulo": "Pizzetas Prelistas",
+                  "descripcion": "Mini pizzas listas para hornear con variedad de ingredientes.",
+                  "imagenPrincipal": "/assets/pizzetas.png"
+                },
+                "prepizzasPrelistas": {
+                  "titulo": "Prepizzas Prelistas",
+                  "descripcion": "Base de pizza prelista para preparar a gusto.",
+                  "imagenPrincipal": "/assets/prepizzas.png"
+                },
+                "empanadasTradicionales": {
+                  "titulo": "Empanadas Tradicionales",
+                  "descripcion": "Variedades: Carne Suave, Pollo, Jamón y Queso, Verdura y Queso, Humita y Queso, Queso y Cebolla.",
+                  "imagenPrincipal": "/assets/empanadas.png"
+                },
+                "pancitosChipsRellenos": {
+                  "titulo": "Pancitos Chips Rellenos",
+                  "descripcion": "Variedades: Jamón y Queso, Salame y Queso.",
+                  "imagenPrincipal": "/assets/pancitos_chips_rellenos.png"
+                },
+                "pancitosSaborizadosSurtidos": {
+                  "titulo": "Pancitos Saborizados Surtidos",
+                  "descripcion": "Variedades: Jamón y Queso, Queso y Huevo, Caprese, Jamón y Tomate.",
+                  "imagenPrincipal": "/assets/pancitos_saborizados.png"
+                },
+                "figacitasDeMantecaRellenas": {
+                  "titulo": "Figacitas de Manteca Rellenas",
+                  "descripcion": "Figacitas rellenas con milanesa de peceto o carne feteada.",
+                  "imagenPrincipal": "/assets/figacitas_rellenas.png"
+                },
+                "bagelsConAmapolas": {
+                  "titulo": "Bagels con Amapolas",
+                  "descripcion": "Bagels con semillas de amapola rellenos de jamón crudo y queso.",
+                  "imagenPrincipal": "/assets/bagels_amapolas.png"
+                }
+              }
+            },
+                  
     "opiniones":{
 		"titulo": "Testimonios",
 		"listaDeDatos":[

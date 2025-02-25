@@ -1,7 +1,7 @@
 ---
 const { servicios } = Astro.props;
 ---
-<section class="bg-[#d0b8a8] py-10">
+<section id="Servicios" class="bg-[#d0b8a8] pt-[4.5rem] pb-[2.5rem]">
     <h2 class="text-center text-xl font-bold text-[#5c3d2e]">{servicios.tituloSuperior}</h2>
     <div class="flex flex-col md:flex-row items-center justify-center gap-10 p-5">
         {Object.values(servicios).slice(1).map(servicio => (
