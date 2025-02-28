@@ -1,10 +1,10 @@
 ---
-const { dataProducts } = Astro.props;
+const { dataProducts, whatsapp } = Astro.props;
 ---
 
 <section class="py-12">
   <div class="container mx-auto text-center">
-    <h2 class="text-4xl font-bold mb-8">Planificacion para Eventos</h2>
+    <h2 class="text-4xl font-bold mb-8">Planificación para Eventos</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {Object.values(dataProducts).map((producto, i) => (
         <div 
@@ -12,10 +12,12 @@ const { dataProducts } = Astro.props;
           class="flex flex-col items-center p-6 bg-[#f4e4d4] rounded-lg shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-105">
           <img src={producto.imagenPrincipal} alt={producto.titulo} class="w-40 h-40 rounded-md" />
           <p class="mt-4 text-[#5c3d2e] font-semibold">{producto.titulo}</p>
-          <button 
+          <a 
+            href="https://api.whatsapp.com/send?phone=5491166505422" 
+            target="_blank"
             class="mt-6 bg-[#5c3d2e] hover:bg-[#3e2b23] text-white px-6 py-2 rounded-lg shadow-md">
             Contactar
-          </button>
+          </a>
         </div>
       ))}
     </div>

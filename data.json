@@ -65,7 +65,7 @@
                 "imagenes": [
                     { "imagen": "/Product/DelSauce/imagesDelSauce/planificacionDeFiesta.png" }
                 ],
-                "boton": "Contactar"
+                "boton": "VER"
                 },
                 "sandwich": {
                 "titulo": "SANDWICHERIA Y CATERING",
@@ -73,7 +73,7 @@
                 "imagenes": [
                     { "imagen": "/Product/DelSauce/imagesDelSauce/sanmwich.png" }
                 ],
-                "boton": "Contactar"
+                "boton": "VER"
                 }
             },
         "redesSociales":[
@@ -254,46 +254,34 @@
           "mapsDireccion": "Suipacha 263",
           "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.2172524591147!2d-58.376430588961796!3d-34.9762225727097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd2cab0592d9e5%3A0x383bf0069e82b31d!2sSuipacha%20355%2C%20B1864%20Alejandro%20Korn%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1739840028426!5m2!1ses!2sar"
     },
-        "footer": {
-            "mostrar": true,
-            "logo": "/Product/DelSauce/imagesDelSauce/LogoSauce.svg",
-            "titulo": "Del Sauce",
-            "contacto": {
-                "telefono": "+11 1111-1111",
-                "email": "lorem@gmail.com",
-                "direccion": "Argentina, Buenos Aires"
-            }
-        },
-        "navbarItems": [
-            {
-                "titulo": "Inicio",
-                "link": "inicio"
-            },
-            {
-                "titulo": "Quienes Somos",
-                "link": "quienes-somos"
-            },
-            {
-                "titulo": "Contacto",
-                "link": "contacto"
-            },
-            {
-                "titulo": "Catering",
-                "link": "catering"
-            }
-        ],
-        "networks": [
-            {
-                "link": "https://instagram.com/del_sauce",
-                "imagen": "icono_instagram.png",
-                "nombreRedSocial": "Del_Sauce"
-            },
-            {
-                "link": "https://facebook.com/del_sauce",
-                "imagen": "icono_facebook.png",
-                "nombreRedSocial": "Del_Sauce"
-            }
-        ],
+  "footer": {
+  "logo": "/Product/DelSauce/imagesDelSauce/LogoSauce.svg",
+  "titulo": "Panaderia Del Sauce",
+  "contacto": {
+    "telefono": "+11 1111-1111",
+    "email": "lorem@gmail.com",
+    "direccion": "Argentina, Buenos Aires"
+  },
+  "navbar": [
+    { "link": "inicio", "titulo": "Inicio" },
+    { "link": "nosotros", "titulo": "Sobre Nosostros" },
+    { "link": "Servicios", "titulo": "Servicios" },
+    { "link": "productos", "titulo": "Productos" },
+    { "link": "Cosulta", "titulo": "Contacto" }
+  ],
+  "redes_sociales": [
+    {
+      "nombre": "Instagram",
+      "link": "https://instagram.com/del_sauce",
+      "imagen": "/Product/DelSauce/imagesDelSauce/icono_instagram.png"
+    },
+    {
+      "nombre": "Facebook",
+      "link": "https://facebook.com/del_sauce",
+      "imagen": "/Product/DelSauce/imagesDelSauce/icono_facebook.png"
+    }
+  ]
+},
     "whatsapp":{
         "whatsapp": "https://api.whatsapp.com/send?phone=5491166505422",
         "whatsappImagen":"/whatsapp.svg"

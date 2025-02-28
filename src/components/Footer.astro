@@ -1,65 +1,47 @@
 ---
-const { navbarItems, networks, footer } = Astro.props;
+const { footer } = Astro.props;
 ---
 
 <footer class="bg-[#502D1D] text-white py-8 px-6 mt-32 border-t-4 border-[#D4A373]">
-  <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center sm:text-left">
+  <div class="container mx-auto flex flex-col items-center text-center">
     
-    {/* Sección de contacto */}
-    {footer?.mostrar && (
+    <!-- Logo Arriba Centrado -->
+    <div class="flex flex-col items-center mb-8">
+      <img src={footer.logo} alt="Logo" class="h-16 mb-4" />
+      <h3 class="text-lg font-semibold">{footer.titulo}</h3>
+    </div>
+    
+    <!-- Contenedor de Contacto y Navegación -->
+    <div class="flex flex-col sm:flex-row justify-center items-start w-full gap-8" style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
+      
+      <!-- Logo y Contacto -->
       <div class="flex flex-col items-center sm:items-start">
-        {footer.logo && (
-          <img src={footer.logo} alt="Logo" class="h-12 mb-4" />
-        )}
-        <h3 class="text-lg font-medium mb-2">{footer.titulo}</h3>
-        {footer.contacto?.telefono && (
-          <p class="text-sm flex items-center gap-2">📞 {footer.contacto.telefono}</p>
-        )}
-        {footer.contacto?.email && (
-          <p class="text-sm flex items-center gap-2">📧 {footer.contacto.email}</p>
-        )}
-        {footer.contacto?.direccion && (
-          <p class="text-sm flex items-center gap-2">📍 {footer.contacto.direccion}</p>
-        )}
+        <h4 class="text-lg font-semibold mb-4">Contacto</h4>
+        <ul class="space-y-2">
+          <li class="flex items-center gap-2">📞 {footer.contacto.telefono}</li>
+          <li class="flex items-center gap-2">📧 {footer.contacto.email}</li>
+          <li class="flex items-center gap-2">📍 {footer.contacto.direccion}</li>
+        </ul>
       </div>
-    )}
 
-    {/* Sección de navegación */}
-    {navbarItems.length > 0 && (
+      <!-- Navegación -->
       <div class="flex flex-col items-center sm:items-start">
-        <h4 class="text-md font-medium mb-4">Navegación</h4>
-        <ul>
-          {navbarItems.map((item) => (
-            <li key={item.link} class="mb-2">
+        <h4 class="text-lg font-semibold mb-4">Navegación</h4>
+        <ul class="space-y-2">
+          {footer.navbar.map((item) => (
+            <li key={item.link}>
               <a href={'#' + item.link.toLowerCase()} class="hover:underline">{item.titulo}</a>
             </li>
           ))}
         </ul>
       </div>
-    )}
-
-    {/* Sección de contacto (antes redes sociales) */}
-    <div class="flex flex-col items-center sm:items-start">
-      <h4 class="text-md font-medium mb-4">Contacto</h4>
-      {footer?.contacto && (
-        <p class="text-sm">Para más información, ¡contáctanos!</p>
-      )}
     </div>
+  </div>
 
-    {/* Sección de redes sociales (mostrar solo si existe información de redes) */}
-    {networks.length > 0 && (
-      <div class="flex flex-col items-center sm:items-start">
-        <h4 class="text-md font-medium mb-4">Visita nuestra página</h4>
-        <div class="flex justify-center sm:justify-start space-x-4">
-          {networks.map((redSocial) => (
-            <a key={redSocial.nombreRedSocial} href={redSocial.link} class="hover:text-gray-400 flex items-center gap-2">
-              <img src={redSocial.imagen} alt={redSocial.nombreRedSocial} width={24} height={24} />
-              {redSocial.nombreRedSocial}
-            </a>
-          ))}
-        </div>
-      </div>
-    )}
+  <!-- Derechos de autor -->
+  <div class="text-center mt-8">
+    <h3 class="text-sm text-white">
+      © 2025 Todos los derechos reservados | Creado por <a href="https://www.artesvirtualesgroup.com" target="_blank" class="text-white hover:text-gray-400">Artes Virtuales Group</a>
+    </h3>
   </div>
 </footer>
-    
