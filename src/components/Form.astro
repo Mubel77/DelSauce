@@ -1,12 +1,12 @@
-<section id="Cosulta"  class="bg-[#D4BDA4] py-12">
+<section id="Consulta" class="bg-[#D4BDA4] py-12">
   <div class="container mx-auto px-6">
     <h2 class="text-4xl font-bold text-[#5A2E1B] text-center mb-8">Contactanos</h2>
     <p class="text-[#5A2E1B] text-center mb-8 max-w-2xl mx-auto">
       ¿Tienes alguna consulta o sugerencia? ¡Nos encantaría escucharte! Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.
     </p>
-    <form class="bg-[#E7D2B9] rounded-lg shadow-lg p-8 max-w-md mx-auto">
+    <form action="https://api.staticforms.xyz/submit" method="post" id="contactForm" onsubmit="return handleSubmit(event)" class="bg-[#E7D2B9] rounded-lg shadow-lg p-8 max-w-md mx-auto">
       <div class="mb-6">
-        <label for="name" class="block text-[#5A2E1B] font-semibold mb-2">Nombre</label>
+        <label for="name" class="block text-[#5A2E1B] font-semibold mb-2">Nombre Completo</label>
         <input
           type="text"
           id="name"
@@ -17,44 +17,46 @@
         />
       </div>
       <div class="mb-6">
-        <label for="email" class="block text-[#5A2E1B] font-semibold mb-2">Email</label>
+        <label for="email" class="block text-[#5A2E1B] font-semibold mb-2">Correo Electrónico</label>
         <input
           type="email"
           id="email"
           name="email"
-          placeholder="Ingresa tu email"
+          placeholder="Ingresa tu correo"
           class="w-full border border-[#5A2E1B] bg-[#F3E5D8] rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#8A5A44]"
           required
         />
       </div>
       <div class="mb-6">
-        <label for="subject" class="block text-[#5A2E1B] font-semibold mb-2">Asunto</label>
-        <input
-          type="text"
-          id="subject"
-          name="subject"
-          placeholder="Escribe el asunto"
-          class="w-full border border-[#5A2E1B] bg-[#F3E5D8] rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#8A5A44]"
-          required
-        />
-      </div>
-      <div class="mb-6">
-        <label for="message" class="block text-[#5A2E1B] font-semibold mb-2">Mensaje</label>
+        <label for="message" class="block text-[#5A2E1B] font-semibold mb-2">Consulta</label>
         <textarea
           id="message"
           name="message"
           rows="4"
-          placeholder="Ingresa tu mensaje"
+          placeholder="Ingresa tu consulta"
           class="w-full border border-[#5A2E1B] bg-[#F3E5D8] rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#8A5A44]"
           required
         ></textarea>
       </div>
-      <button
-        type="submit"
-        class="w-full bg-[#5A2E1B] hover:bg-[#3D1F12] text-white font-bold py-3 rounded-lg transition duration-300"
-      >
-        Enviar
-      </button>
+      <input type="hidden" name="accessKey" value="15674eec-be98-4df5-8f67-e4aa1e5617f7">
+      <input type="hidden" name="subject" value="Un nuevo cliente te envió un correo" />
+      <input type="hidden" name="replyTo" value="infodelsauce@gmail.com">
+      <input type="hidden" name="redirectTo" value="https://del-sauce.vercel.app/">
+      <div class="modal-footer flex justify-between">
+        <button
+          type="submit"
+          class="w-full bg-[#5A2E1B] hover:bg-[#3D1F12] text-white font-bold py-3 rounded-lg transition duration-300"
+        >
+          Enviar
+        </button>
+        <button
+          type="button"
+          id="closeContactModal"
+          class="w-full bg-[#8A5A44] hover:bg-[#5A2E1B] text-white font-bold py-3 rounded-lg transition duration-300"
+        >
+          Cancelar
+        </button>
+      </div>
     </form>
   </div>
 </section>

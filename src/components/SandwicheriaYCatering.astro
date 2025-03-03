@@ -2,9 +2,9 @@
 const { dataProducts } = Astro.props;
 ---
 
-<section class="py-12">
+<section id="lunch" class="py-12">
   <div class="container mx-auto text-center">
-    <h2 class="text-4xl font-bold mb-8">Sandwicheria y Catering</h2>
+    <h2 class="text-4xl text-[#5a2e1b] mb-8"> Servicios de Lunch</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {Object.values(dataProducts).map((producto, i) => (
         <div 

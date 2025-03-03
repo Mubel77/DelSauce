@@ -7,6 +7,7 @@ import data from '../../data.json';
 import PlanificacionParaEventos from '../components/PlanificacionParaEventos.astro';
 import SandwicheriaYCatering from '../components/SandwicheriaYCatering.astro';
 import Layout from '../layouts/Layout.astro';
+import OpcionDulce from '../components/OpcionDulce.astro';
 ---
 <Layout></Layout>
 <Header dataHeader={data.header} />
@@ -15,6 +16,12 @@ import Layout from '../layouts/Layout.astro';
   <h2 class="text-center text-xl font-bold text-[#5c3d2e]">{data.productos.tituloSuperior}</h2>
   <PlanificacionParaEventos dataProducts={data.productos.planificacionParaEventos} />
   <SandwicheriaYCatering dataProducts={data.productos.sandwicheriaYCatering} />
+  <OpcionDulce dataProducts={data.productos.opcinesDulces} />
+  
+  <!-- Botón Volver -->
+  <div class="text-center mt-6">
+    <a href="/" class="bg-[#5c3d2e] text-white px-4 py-2 rounded hover:bg-[#4a2f24]">Volver</a>
+  </div>
 </section>
 
 <Footer footer={data.footer} />

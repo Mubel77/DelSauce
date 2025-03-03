@@ -24,15 +24,14 @@
                 }
             ]
         },
-            "carrusel": {
-                "titulo": "Mi Carrusel",
-                "imagenes": [
-                { "imagen": "/Product/DelSauce/imagesDelSauce/fondeDelCarruse.png" },
-                { "imagen": "/Product/DelSauce/imagesDelSauce/catering.png" },
-                { "imagen": "/Product/DelSauce/imagesDelSauce/sandwich.png" }
-                ]
-            },
-                
+          "carrusel": {
+              "titulo": "Mi Carrusel",
+              "imagenes": [
+                  { "imagen": "/Product/DelSauce/imagesDelSauce/Hero.png", "titulo": "MEDIALUNAS DE MANTECA" },
+                  { "imagen": "/Product/DelSauce/imagesDelSauce/Browniebanner.png", "titulo": "BROWNIE CON NUECES" },
+                  { "imagen": "/Product/DelSauce/imagesDelSauce/Ojaldrebanner.png", "titulo": "OJALDRE CON JAMON Y QUESO" }
+              ]
+          },            
             "QuienesSomos":{
                 "titulo":"Quienes Somos",
                 "descripcion":" En Del Sauce, nos apasiona ofrecer experiencias deliciosas e inolvidables. Nos especializamos en la elaboración de panadería artesanal de calidad superior, sin conservantes, para que puedas disfrutar de nuestros productos frescos y auténticos en cualquier momento del día.",
@@ -68,13 +67,21 @@
                 "boton": "VER"
                 },
                 "sandwich": {
-                "titulo": "SANDWICHERIA Y CATERING",
+                "titulo": "SERVICIO DE LUNCH",
                 "descripcion": "Llevamos tus productos favoritos hasta tu puerta con nuestro servicio de delivery.",
                 "imagenes": [
                     { "imagen": "/Product/DelSauce/imagesDelSauce/sanmwich.png" }
                 ],
                 "boton": "VER"
-                }
+                },
+                "Dulces": {
+                  "titulo": "SERVICIO DE DULCES",
+                  "descripcion": "Llevamos tus productos favoritos hasta tu puerta con nuestro servicio de delivery.",
+                  "imagenes": [
+                      { "imagen": "/Product/DelSauce/imagesDelSauce/imagesBrownie.png" }
+                  ],
+                  "boton": "VER"
+                  }
             },
         "redesSociales":[
             {
@@ -101,24 +108,39 @@
                   "descripcion": "Medilunas de mantecas: Sabrozo para la merienda.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/medilunas05.JPG"
                 },
+                "medialunasDeMantecaConDulceDeLeche": {
+                  "titulo": "Medialunas de Manteca Con Dulce de Leche",
+                  "descripcion": "Medilunas de mantecas Con Dulce de Leche: Sabrozo para la merienda.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MedialunaConDulceDeLeche.JPG"
+                },
+                "medialunasDeMantecaConCremaPastelera": {
+                  "titulo": "Medialunas de Manteca Con Crema Pastelera",
+                  "descripcion": "Medilunas de mantecas Con Crema Pastelera: Sabrozo para la merienda.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MedialunaConPastelera.JPG"
+                },
+                "FacturaConMembrillo": {
+                  "titulo": "Factura con Membrillo",
+                  "descripcion": "Factura con Membrillo: Sabrozo para la merienda.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FacturaConMenmbrillo02.JPG"
+                },
+                "FacturaConPastelera": {
+                  "titulo": "Factura con Pastelera",
+                  "descripcion": "Factura con Pastelera: Sabrozo para la merienda.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FacturaConPastelera.JPG"
+                },
                 "figacitasDeManteca": {
                   "titulo": "Figacitas de Manteca",
                   "descripcion": "Pequeñas figacitas de manteca, perfectas para acompañar cualquier comida.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Fijacita.JPG"
                 },
+                "figacitasDeMantecaSimple": {
+                  "titulo": "Figacitas de Copetin",
+                  "descripcion": "Perfectas para acompañar cualquier comida.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Fijacita.JPG"
+                },
                 "fosforitosDeHojaldre": {
                   "titulo": "Fosforitos de Hojaldre",
                   "descripcion": "Crujientes bocados de hojaldre, ideales para reuniones y meriendas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FosforitosDeJ&Q.JPG"
-                },
-                "pancitosChips": {
-                  "titulo": "Pancitos Chips",
-                  "descripcion": "Mini pancitos crocantes para acompañar tus comidas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FosforitosDeJ&Q.JPG"
-                },
-                "pancitosConSemillas": {
-                  "titulo": "Pancitos con Semillas",
-                  "descripcion": "Pan con una mezcla de semillas saludables.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FosforitosDeJ&Q.JPG"
                 },
                 "pizzetas": {
@@ -134,7 +156,7 @@
                 "miniBagels": {
                   "titulo": "Mini Bagels",
                   "descripcion": "Pequeños bagels ideales para sándwiches y picadas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PizetaConQueso.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Buggle.JPG"
                 },
                 "cremonas": {
                   "titulo": "Cremonas",
@@ -144,49 +166,34 @@
                 "criollitosDeGrasa": {
                   "titulo": "Criollitos de Grasa",
                   "descripcion": "Clásicos criollitos de grasa, perfectos para el mate.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Cremona.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/GalletaDeLibrito03.JPG"
                 },
-                "galletas": {
-                  "titulo": "Galletas",
-                  "descripcion": "Galletas caseras con variedad de sabores.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/GalletaDeLibrito02.JPG"
-                },
-                "masitasSecas": {
-                  "titulo": "Masitas Secas",
-                  "descripcion": "Pequeñas masitas dulces ideales para la merienda.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/GalletaDeLibrito02.JPG"
-                },
-                "brownie": {
-                  "titulo": "Brownie",
-                  "descripcion": "Delicioso brownie de chocolate.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Brownie.JPG"
-                },
-                "pastaFrola": {
-                  "titulo": "Pasta Frola",
-                  "descripcion": "Tarta clásica de membrillo o batata.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Pastafrola.JPG"
+                "Chips": {
+                  "titulo": "Pan Chips",
+                  "descripcion": "Clásicos Panes Chips.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/ChipsdeJamonyQueso.JPG"
                 }
               },
               "sandwicheriaYCatering": {
                 "sandwichesDeMigaTriples": {
-                  "titulo": "Sándwiches de Miga Triples",
+                  "titulo": "Sándwiches de Miga Triples Jamon y Queso o Salame",
                   "descripcion": "Clásicos sándwiches de miga en diversas variedades.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/ChipsJ&Q.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/SandwichDeJ&Q.JPG"
                 },
-                "medialunasRellenasDeJamonYQueso": {
-                  "titulo": "Medialunas Rellenas de Jamón y Queso",
-                  "descripcion": "Medialunas rellenas con jamón y queso, ideales para desayunos y meriendas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/ChipsJ&Q.JPG"
+                "sandwichesDeMigaTriplesMini": {
+                  "titulo": "Sándwiches de Miga Mini Triples Jamon y Queso o Salame",
+                  "descripcion": "Clásicos sándwiches de miga mini en diversas variedades.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/SandwichDeJ&Q05.JPG"
                 },
                 "fosforitosDeHojaldreRellenosDeJamonYQueso": {
                   "titulo": "Fosforitos de Hojaldre Rellenos de Jamón y Queso",
                   "descripcion": "Hojaldre crujiente con relleno de jamón y queso.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FosforitosdeJ&Q04.JPG"
                 },
-                "pizzetasPrelistas": {
-                  "titulo": "Pizzetas Prelistas",
+                "pizzetas": {
+                  "titulo": "Pizzetas",
                   "descripcion": "Mini pizzas listas para hornear con variedad de ingredientes.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PizetaConQueso03.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PizetaSimple02.JPG"
                 },
                 "prepizzasPrelistas": {
                   "titulo": "Prepizzas Prelistas",
@@ -202,65 +209,46 @@
                   "titulo": "Pancitos Chips Rellenos",
                   "descripcion": "Variedades: Jamón y Queso, Salame y Queso.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/ChipsdeJamonyQueso.JPG"
-                },
-                "pancitosSaborizadosSurtidos": {
-                  "titulo": "Pancitos Saborizados Surtidos",
-                  "descripcion": "Variedades: Jamón y Queso, Queso y Huevo, Caprese, Jamón y Tomate.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/ChipsdeJamonyQueso.JPG"
-                },
-                "figacitasDeMantecaRellenas": {
-                  "titulo": "Figacitas de Manteca Rellenas",
-                  "descripcion": "Figacitas rellenas con milanesa de peceto o carne feteada.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Figacitasrellenas.JPG"
-                },
-                "bagelsConAmapolas": {
-                  "titulo": "Bagels con Amapolas",
-                  "descripcion": "Bagels con semillas de amapola rellenos de jamón crudo y queso.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Brownie03.JPG"
                 }
+              },
+              "opcinesDulces": {
+                "opcinesDulces": {
+                  "titulo": "Brownie con nueces",
+                  "descripcion": "Rectangular de chocolate con nueces.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Brownie.JPG"
+                },
+                "masitas": {
+                  "titulo": "Masitas Surtidas",
+                  "descripcion": "Masitas Surtidas secas.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/CombosDeGalletitasDulces.JPG"
+                },
+                "galletas": {
+                  "titulo": "Galletas Dulces",
+                  "descripcion": "Galletitas Dulces.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Galletas01.JPG"
+                },
+                "Patafloras": {
+                  "titulo": "Pastafrola con membrillo",
+                  "descripcion": "Pastafrola con membrillo.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Pastafrola.JPG"
+                }
+
               }
-            },
-                  
-    "opiniones":{
-		"titulo": "Testimonios",
-		"listaDeDatos":[
-			{
-				"imagen":"",
-				"nombreCompleto":"Daniel Campos",
-				"localidad":"Remedios de escalada",
-				"opinion":"Esta es una opinion o testimonio acerca de algo, o algun servicio dado",
-				"estrellas":5
-			},
-			{
-				"imagen":"",
-				"nombreCompleto":"Daniel Campos",
-				"localidad":"Remedios de escalada",
-				"opinion":"Esta es una opinion o testimonio acerca de algo, o algun servicio dado",
-				"estrellas":5
-			},
-			{
-				"imagen":"",
-				"nombreCompleto":"Daniel Campos",
-				"localidad":"Remedios de escalada",
-				"opinion":"Esta es una opinion o testimonio acerca de algo, o algun servicio dado",
-				"estrellas":5
-			}
-		]
-	},
+    },
     "dataContact": {
           "titulo": "Ubicación",
           "telefono": "1166505422",
           "email": "infodelsauce@gmail.com",
-          "mapsDireccion": "Suipacha 263",
-          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.2172524591147!2d-58.376430588961796!3d-34.9762225727097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd2cab0592d9e5%3A0x383bf0069e82b31d!2sSuipacha%20355%2C%20B1864%20Alejandro%20Korn%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1739840028426!5m2!1ses!2sar"
+          "mapsDireccion": "Julio Omar Benitez 4242",
+          "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.6846857917794!2d-58.4708649248526!3d-34.66266526061271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc95e0430bcbf%3A0x3006df7d228684c6!2sBenitez%20Julio%20Omar%204242%2C%20C1439%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1741028028369!5m2!1ses!2sar"
     },
   "footer": {
   "logo": "/Product/DelSauce/imagesDelSauce/LogoSauce.svg",
   "titulo": "Panaderia Del Sauce",
   "contacto": {
-    "telefono": "+11 1111-1111",
-    "email": "lorem@gmail.com",
-    "direccion": "Argentina, Buenos Aires"
+    "telefono": "+11 6650-5422",
+    "email": "infodelsauce@gmail.com",
+    "direccion": "Julio Omar Benitez 4242, Buenos Aires"
   },
   "navbar": [
     { "link": "inicio", "titulo": "Inicio" },
@@ -285,5 +273,9 @@
     "whatsapp":{
         "whatsapp": "https://api.whatsapp.com/send?phone=5491166505422",
         "whatsappImagen":"/whatsapp.svg"
+    },
+    "catalogo":{
+      "catalogo":"/MENU_DEL_SAUCE.pdf",
+       "catalogoImagen": "./pdf02.png"
     }
 }

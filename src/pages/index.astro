@@ -4,13 +4,13 @@ import Layout from '../layouts/Layout.astro';
 import data from '../../data.json';
 import Footer from '../components/Footer.astro';
 import ButtonWhatsapp from '../components/ButtonWhatsapp.astro';
-import Opinions from '../components/Opinions.astro';
 import Whowe from '../components/Whowe.astro';
 import Form from '../components/Form.astro';
 import Carusel from '../components/Carusel.astro';
 import Servicios from '../components/Servicios.astro';
 import Producto from '../components/Producto.astro';
 import Ubicacion from '../components/Ubicacion.astro';
+import ButtonCatalogo from '../components/ButtonCatalogo.astro';
 ---
 
 <Layout>
@@ -19,9 +19,9 @@ import Ubicacion from '../components/Ubicacion.astro';
     <Whowe />
     <Servicios servicios={data.servicios} />
     <Producto productos={data.producto} />
-    <Opinions opinions={data.opiniones} />
     <Form />
     <Ubicacion dataContact={data.dataContact} />
     <Footer footer={data.footer} />
     <ButtonWhatsapp whatsapp={data.whatsapp.whatsapp} whatsappImage={data.whatsapp.whatsappImagen} />
+    <ButtonCatalogo catalogo={data.catalogo.catalogo} catalogoImagen={data.catalogo.catalogoImagen} />
 </Layout>

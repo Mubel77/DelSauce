@@ -2,13 +2,13 @@
 // Cargando el componente de Astro con la propiedad carrusel
 const { carrusel } = Astro.props;
 ---
-<div class="relative w-full max-w-[91rem] mx-auto overflow-hidden h-[270px] sm:h-[500px] md:h-[554px] lg:h-[595px]">
-  <div class="carousel-inner flex transition-transform duration-700 ease-in-out" id="carousel" style={`transform: translateX(0%)`}>
-    {carrusel.imagenes.map((item: { imagen: string }, index: number) => (
+<div class="relative w-full max-w-[91rem] mx-auto overflow-hidden h-[270px] sm:h-[500px] md:h-[554px] lg:h-[595px] bg-[#523c29]">
+  <div class="carousel-inner flex transition-transform duration-700 ease-in-out bg-[#523c29]" id="carousel" style={`transform: translateX(0%)`}>
+    {carrusel.imagenes.map((item: { imagen: string, titulo: string }, index: number) => (
       <div class="w-full h-full flex-shrink-0 relative" key={index}>
-        <img src={item.imagen} alt={`Slide ${index + 1}`} class="w-full h-full object-cover block" />
-        <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <h3 class="text-white font-bold text-2xl text-center p-4">{carrusel.titulo}</h3>
+        <img src={item.imagen} alt={item.titulo} class="w-full h-full object-cover block" />
+        <div class="absolute inset-0 flex flex-col items-center justify-center">
+          <h4 class="text-white font-semibold text-lg text-center">{item.titulo}</h4>
         </div>
       </div>
     ))}
@@ -54,7 +54,7 @@ const { carrusel } = Astro.props;
   });
 
   // Iniciar el carrusel cada 2 segundos
-  setInterval(nextSlide, 2000);
+  setInterval(nextSlide, 4000);
 
   // Actualizar el carrusel con el primer estado
   updateCarousel();
