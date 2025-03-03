@@ -8,6 +8,7 @@ import PlanificacionParaEventos from '../components/PlanificacionParaEventos.ast
 import SandwicheriaYCatering from '../components/SandwicheriaYCatering.astro';
 import Layout from '../layouts/Layout.astro';
 import OpcionDulce from '../components/OpcionDulce.astro';
+import ButtonCatalogo from '../components/ButtonCatalogo.astro';
 ---
 <Layout></Layout>
 <Header dataHeader={data.header} />
@@ -26,3 +27,4 @@ import OpcionDulce from '../components/OpcionDulce.astro';
 
 <Footer footer={data.footer} />
 <ButtonWhatsapp whatsapp={data.whatsapp.whatsapp} whatsappImage={data.whatsapp.whatsappImagen} />
+<ButtonCatalogo catalogo={data.catalogo.catalogo} catalogoImagen={data.catalogo.catalogoImagen} />
