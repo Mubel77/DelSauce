@@ -8,7 +8,7 @@ const { carrusel } = Astro.props;
       <div class="w-full h-full flex-shrink-0 relative" key={index}>
         <img src={item.imagen} alt={item.titulo} class="w-full h-full object-cover block" />
         <div class="absolute inset-0 flex flex-col items-center justify-center">
-          <h4 class="text-white font-semibold text-lg text-center">{item.titulo}</h4>
+          <h4 class="text-white font-semibold text-center" style="font-size: 3rem;">{item.titulo}</h4>
         </div>
       </div>
     ))}
