@@ -29,7 +29,7 @@
               "imagenes": [
                   { "imagen": "/Product/DelSauce/imagesDelSauce/Hero.png", "titulo": "MEDIALUNAS DE MANTECA" },
                   { "imagen": "/Product/DelSauce/imagesDelSauce/Browniebanner.png", "titulo": "BROWNIE CON NUECES" },
-                  { "imagen": "/Product/DelSauce/imagesDelSauce/Ojaldrebanner.png", "titulo": "OJALDRE CON JAMON Y QUESO" }
+                  { "imagen": "/Product/DelSauce/imagesDelSauce/Ojaldrebanner.png", "titulo": "FOSFORITOS CON JAMON Y QUESO" }
               ]
           },            
             "QuienesSomos":{
@@ -109,12 +109,12 @@
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/medilunas05.JPG"
                 },
                 "medialunasDeMantecaConDulceDeLeche": {
-                  "titulo": "Medialunas de Manteca Con Dulce de Leche",
+                  "titulo": "Medialuna Con Dulce de Leche",
                   "descripcion": "Medilunas de mantecas Con Dulce de Leche: Sabrozo para la merienda.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MedialunaConDulceDeLeche.JPG"
                 },
                 "medialunasDeMantecaConCremaPastelera": {
-                  "titulo": "Medialunas de Manteca Con Crema Pastelera",
+                  "titulo": "Medialunas Con Crema Pastelera",
                   "descripcion": "Medilunas de mantecas Con Crema Pastelera: Sabrozo para la merienda.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MedialunaConPastelera.JPG"
                 },
@@ -131,7 +131,7 @@
                 "figacitasDeManteca": {
                   "titulo": "Figacitas de Manteca",
                   "descripcion": "Pequeñas figacitas de manteca, perfectas para acompañar cualquier comida.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Fijacita.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Figacitas022.JPG"
                 },
                 "figacitasDeMantecaSimple": {
                   "titulo": "Figacitas de Copetin",
@@ -144,19 +144,24 @@
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FosforitosDeJ&Q.JPG"
                 },
                 "pizzetas": {
-                  "titulo": "Pizzetas",
-                  "descripcion": "Mini pizzas listas para hornear.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PizetaSimple.JPG"
+                  "titulo": "Prepizza",
+                  "descripcion": "pizzas listas para hornear.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Pizzetas021.JPG"
                 },
                 "prepizzas": {
-                  "titulo": "Prepizzas",
+                  "titulo": "Pizzetas",
                   "descripcion": "Masa de pizza prehorneada lista para usar.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PizetaConQueso.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MIniPizetas.JPG"
                 },
                 "miniBagels": {
                   "titulo": "Mini Bagels",
                   "descripcion": "Pequeños bagels ideales para sándwiches y picadas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Buggle.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Bugles23.JPG"
+                },
+                "copetin": {
+                  "titulo": "Pan Copetin",
+                  "descripcion": "Pan Copetin ideales para sándwiches y picadas.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Buggle04.JPG"
                 },
                 "cremonas": {
                   "titulo": "Cremonas",
@@ -172,33 +177,48 @@
                   "titulo": "Pan Chips",
                   "descripcion": "Clásicos Panes Chips.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/ChipsdeJamonyQueso.JPG"
-                }
+                },
+                "PanSaborizado":{                 
+                "titulo": "Pan Saborizado",
+                "descripcion": "Con semillas.",
+                "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanSaborizado.JPG"
+                },
+                "PanSaborizadoTrenzado":{                 
+                  "titulo": "Pan Trenzado",
+                  "descripcion": "Con semillas.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanTrenzado.JPG"
+                  }
               },
               "sandwicheriaYCatering": {
+                "medialunasJYQ": {
+                  "titulo": "Medialunas de Jamón y Queso",
+                  "descripcion": "Medialunas rellenas de jamón y queso.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MedialunaConJYQ.JPG"
+                },
                 "sandwichesDeMigaTriples": {
-                  "titulo": "Sándwiches de Miga Triples Jamon y Queso o Salame",
+                  "titulo": "Sándwiches de Miga",
                   "descripcion": "Clásicos sándwiches de miga en diversas variedades.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/SandwichDeJ&Q.JPG"
                 },
                 "sandwichesDeMigaTriplesMini": {
-                  "titulo": "Sándwiches de Miga Mini Triples Jamon y Queso o Salame",
-                  "descripcion": "Clásicos sándwiches de miga mini en diversas variedades.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/SandwichDeJ&Q05.JPG"
+                  "titulo": "Sándwiches Figacitas ",
+                  "descripcion": "Clásicos sándwiches de copetin en diversas variedades.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Fijacita.JPG"
                 },
                 "fosforitosDeHojaldreRellenosDeJamonYQueso": {
-                  "titulo": "Fosforitos de Hojaldre Rellenos de Jamón y Queso",
+                  "titulo": "Fosforitos Rellenos",
                   "descripcion": "Hojaldre crujiente con relleno de jamón y queso.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FosforitosdeJ&Q04.JPG"
                 },
                 "pizzetas": {
-                  "titulo": "Pizzetas",
-                  "descripcion": "Mini pizzas listas para hornear con variedad de ingredientes.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PizetaSimple02.JPG"
+                  "titulo": "Prepizza",
+                  "descripcion": "pizzas listas para hornear.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Pizzetas021.JPG"
                 },
-                "prepizzasPrelistas": {
-                  "titulo": "Prepizzas Prelistas",
-                  "descripcion": "Base de pizza prelista para preparar a gusto.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PizetaConQueso03.JPG"
+                "prepizzas": {
+                  "titulo": "Pizzetas",
+                  "descripcion": "Masa de pizza prehorneada lista para usar.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MIniPizetas.JPG"
                 },
                 "empanadasTradicionales": {
                   "titulo": "Empanadas Tradicionales",
@@ -209,7 +229,12 @@
                   "titulo": "Pancitos Chips Rellenos",
                   "descripcion": "Variedades: Jamón y Queso, Salame y Queso.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/ChipsdeJamonyQueso.JPG"
-                }
+                },
+                "PanSaborizado":{                 
+                  "titulo": "Pan Saborizado",
+                  "descripcion": "Con semillas.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanSaborizado.JPG"
+                  }
               },
               "opcinesDulces": {
                 "opcinesDulces": {

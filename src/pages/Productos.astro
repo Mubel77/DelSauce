@@ -1,5 +1,4 @@
 ---
-// filepath: /c:/Users/estudiante/Desktop/Mauricio/delSauce/src/pages/productos/[Productos].astro
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import ButtonWhatsapp from '../components/ButtonWhatsapp.astro';
@@ -10,18 +9,24 @@ import Layout from '../layouts/Layout.astro';
 import OpcionDulce from '../components/OpcionDulce.astro';
 import ButtonCatalogo from '../components/ButtonCatalogo.astro';
 ---
+
 <Layout></Layout>
 <Header dataHeader={data.header} />
 
-<section class="bg-[#d0b8a8] py-10">
-  <h2 class="text-center text-xl font-bold text-[#5c3d2e]">{data.productos.tituloSuperior}</h2>
-  <PlanificacionParaEventos dataProducts={data.productos.planificacionParaEventos} />
-  <SandwicheriaYCatering dataProducts={data.productos.sandwicheriaYCatering} />
-  <OpcionDulce dataProducts={data.productos.opcinesDulces} />
-  
-  <!-- Botón Volver -->
-  <div class="text-center mt-6">
-    <a href="/" class="bg-[#5c3d2e] text-white px-4 py-2 rounded hover:bg-[#4a2f24]">Volver</a>
+<section class="bg-[#dbc0a7] py-12 pt-20">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold text-[#5c3d2e] mb-6">{data.productos.tituloSuperior}</h2>
+
+    <PlanificacionParaEventos dataProducts={data.productos.planificacionParaEventos} />
+    <SandwicheriaYCatering dataProducts={data.productos.sandwicheriaYCatering} />
+    <OpcionDulce dataProducts={data.productos.opcinesDulces} />
+
+    <!-- Botón Volver -->
+    <div class="text-center mt-8">
+      <a href="/" class="bg-[#5c3d2e] text-white px-5 py-3 rounded-lg shadow-md hover:bg-[#4a2f24] transition-all">
+        Volver
+      </a>
+    </div>
   </div>
 </section>
 
