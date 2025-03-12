@@ -6,7 +6,14 @@ const { carrusel } = Astro.props;
   <div class="carousel-inner flex transition-transform duration-700 ease-in-out bg-[#523c29]" id="carousel" style={`transform: translateX(0%)`}>
     {carrusel.imagenes.map((item: { imagen: string, titulo: string }, index: number) => (
       <div class="w-full h-full flex-shrink-0 relative" key={index}>
-        <img src={item.imagen} alt={item.titulo} class="w-full h-full object-cover block" />
+        <img 
+          src={item.imagen} 
+          alt={item.titulo} 
+          class="w-full h-full object-cover block" 
+          width="800" 
+          height="600"  
+          loading="lazy" 
+        />
         <div class="absolute inset-0 flex flex-col items-center justify-center">
           <h4 class="text-white font-semibold text-center" style="font-size: 3rem;">{item.titulo}</h4>
         </div>

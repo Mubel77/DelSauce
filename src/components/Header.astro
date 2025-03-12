@@ -5,7 +5,7 @@ const { dataHeader } = Astro.props
 <header class="bg-[#5F342C] shadow-md w-full fixed top-0 z-50 flex items-center justify-center">
   <nav class="flex justify-between items-center w-full px-10 h-16 relative">
     <!-- Logo -->
-    <img src={dataHeader.logo} width={60} alt="Logo">
+    <img src={dataHeader.logo} width="60" height="60" alt="Logo">
 
     <!-- Desktop Navigation -->
     <ul class="hidden md:flex gap-16">
@@ -29,6 +29,7 @@ const { dataHeader } = Astro.props
         src="/Product/DelSauce/imagesDelSauce/hambuguer.png" 
         alt="Menú" 
         class="w-8 h-8"
+        width="32" height="32"
       />
     </button>
 

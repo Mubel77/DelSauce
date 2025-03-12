@@ -1,5 +1,4 @@
 ---
-// Recibiendo la propiedad 'productos' de Astro.props
 const { productos } = Astro.props;
 ---
 
@@ -12,13 +11,13 @@ const { productos } = Astro.props;
                     src={producto.imagenes[0].imagen} 
                     alt={producto.titulo} 
                     class="mx-auto w-80 h-48 max-w-[70%] object-cover"
+                    width="320" height="192" loading="lazy"
                 />
                 <h3 class="text-lg font-semibold text-[#5c3d2e]">{producto.titulo}</h3>
                 <p class="text-sm text-[#3e2b23] mt-4 mb-4">{producto.descripcion}</p>
-                {/* Agregamos el enlace con href apuntando a productos.astro */}
                 <a href="/Productos" class="mt-6 bg-[#5c3d2e] hover:bg-[#3e2b23] text-white px-6 py-2 rounded">
-    {producto.boton}
-</a>
+                    {producto.boton}
+                </a>
             </div>
         ))}
     </div>  

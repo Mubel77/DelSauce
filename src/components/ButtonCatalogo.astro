@@ -3,7 +3,16 @@ const { catalogo, catalogoImagen } = Astro.props;
 ---
 
 
-<a href={catalogo} target="_blank" class="fixed bottom-[7rem] right-[0.5rem] p-4 bg-[#eee] rounded-full z-20" onclick="window.open(this.href, '_blank', 'width=800,height=600'); return false;">
-    <img src={catalogoImagen} alt="catalogo" width={50} height={50} />
-  </a>
-  
+<a 
+  href={catalogo} 
+  target="_blank" 
+  class="fixed bottom-[7rem] right-[0.5rem] p-4 bg-[#eee] rounded-full z-20" 
+  onclick="window.open(this.href, '_blank', 'width=800,height=600'); return false;">
+    <img 
+      src={catalogoImagen} 
+      alt="catalogo" 
+      width="50" 
+      height="50" 
+      class="w-12 h-12" 
+    />
+</a>
