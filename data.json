@@ -106,152 +106,157 @@
                 "medialunasDeMantecaYFacturas": {
                   "titulo": "Medialunas de Manteca",
                   "descripcion": "Medilunas de mantecas: Sabrozo para la merienda.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Medialunas.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Medialunas.jpg"
                 },
                 "medialunasDeMantecaConDulceDeLeche": {
                   "titulo": "Medialuna Con Dulce de Leche",
                   "descripcion": "Medilunas de mantecas Con Dulce de Leche: Sabrozo para la merienda.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MedialunaConDulceDeLeche.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MedialunaConDulceDeLeche.jpg"
                 },
                 "medialunasDeMantecaConCremaPastelera": {
                   "titulo": "Medialunas Con Crema Pastelera",
                   "descripcion": "Medilunas de mantecas Con Crema Pastelera: Sabrozo para la merienda.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MedialunaConPastelera.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MedialunaConPastelera.jpg"
                 },
                 "FacturaConMembrillo": {
                   "titulo": "Factura con Membrillo",
                   "descripcion": "Factura con Membrillo: Sabrozo para la merienda.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FacturaConMenmbrillo02.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FacturaConMenmbrillo02.jpg"
                 },
                 "FacturaConPastelera": {
                   "titulo": "Factura con Pastelera",
                   "descripcion": "Factura con Pastelera: Sabrozo para la merienda.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FacturaConPastelera.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FacturaConPastelera.jpg"
                 },
                 "figacitasDeManteca": {
                   "titulo": "Figacitas de Manteca",
                   "descripcion": "Pequeñas figacitas de manteca, perfectas para acompañar cualquier comida.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Figacitas022.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Figacitas022.jpg"
                 },
 
                 "fosforitosDeHojaldre": {
                   "titulo": "Fosforitos de Hojaldre",
                   "descripcion": "Crujientes bocados de hojaldre, ideales para reuniones y meriendas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FosforitosDeJ&Q.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FacturaDeOjaldre.jpg"
                 },
                 "pizzetas": {
                   "titulo": "Prepizza",
                   "descripcion": "pizzas listas para hornear.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Pizzetas021.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Pizzetas021.jpg"
                 },
                 "prepizzas": {
                   "titulo": "Pizzetas",
                   "descripcion": "Masa de pizza prehorneada lista para usar.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MIniPizetas.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MIniPizetas.jpg"
                 },
-                "miniBagels": {
-                  "titulo": "Mini Bagels",
+                "miniPebete": {
+                  "titulo": "Pebetes",
                   "descripcion": "Pequeños bagels ideales para sándwiches y picadas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Bugles23.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Buggle02.jpg"
                 },
                 "copetin": {
                   "titulo": "Pan Copetin",
                   "descripcion": "Pan Copetin ideales para sándwiches y picadas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Buggle04.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Buggle04.jpg"
                 },
                 "cremonas": {
                   "titulo": "Cremonas",
                   "descripcion": "Pan hojaldrado típico, ideal para compartir.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Cremona.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Cremona.jpg"
                 },
                 "criollitosDeGrasa": {
                   "titulo": "Criollitos de Grasa",
                   "descripcion": "Clásicos criollitos de grasa, perfectos para el mate.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/GalletaDeLibrito03.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/GalletaDeLibrito03.jpg"
                 },
-                "Chips": {
-                  "titulo": "Pan Chips",
-                  "descripcion": "Clásicos Panes Chips.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/ChipsJ&Q02.JPG"
-                },
-                "PanSaborizado":{                 
-                "titulo": "Pan Saborizado",
-                "descripcion": "Con semillas.",
-                "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanSaborizado.JPG"
+                "Pan":{                 
+                  "titulo": "Pan Minion",
+                  "descripcion": "Con semillas.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanMinion.jpg"
+                  },
+                "PanConSemillas":{                 
+                "titulo": "an Con semillas",
+                "descripcion": "Pan Con semillas.",
+                "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanConSemiilas.jpeg"
                 },
                 "PanSaborizadoTrenzado":{                 
                   "titulo": "Pan Trenzado",
                   "descripcion": "Con semillas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanTrenzado.JPG"
-                  }
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanTrenzado.jpg"
+                  },
+                  "PanSaborizado":{                 
+                    "titulo": "Pan Relleno",
+                    "descripcion": "Con semillas.",
+                    "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanSaborizado.jpg"
+                    }
               },
               "sandwicheriaYCatering": {
                 "medialunasJYQ": {
                   "titulo": "Medialunas de Jamón y Queso",
                   "descripcion": "Medialunas rellenas de jamón y queso.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MedialunaConJYQ.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MedialunaConJYQ.jpg"
                 },
                 "sandwichesDeMigaTriples": {
                   "titulo": "Sándwiches de Miga",
                   "descripcion": "Clásicos sándwiches de miga en diversas variedades.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/SandwichDeJ&Q.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/SandwichDeJ&Q.jpg"
                 },
                 "sandwichesDeMigaTriplesMini": {
-                  "titulo": "Sándwiches Figacitas ",
+                  "titulo": "Pan con semmilas relleno ",
                   "descripcion": "Clásicos sándwiches de copetin en diversas variedades.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Figacitasrellenas.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanConSemmilasYRelleno.png"
+                },
+                "sandwichesConSemmilas": {
+                  "titulo": "Sándwiches en Figacitas ",
+                  "descripcion": "Clásicos sándwiches de copetin en diversas variedades.",
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Figacitasrellenas.jpg"
                 },
                 "fosforitosDeHojaldreRellenosDeJamonYQueso": {
                   "titulo": "Fosforitos Rellenos",
                   "descripcion": "Hojaldre crujiente con relleno de jamón y queso.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FosforitosdeJ&Q04.JPG"
-                },
-                "pizzetas": {
-                  "titulo": "Prepizza",
-                  "descripcion": "pizzas listas para hornear.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Pizzetas021.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FosforitosdeJ&Q04.jpg"
                 },
                 "prepizzas": {
-                  "titulo": "Pizzetas",
+                  "titulo": "pizzetas y prepizas prelistass",
                   "descripcion": "Masa de pizza prehorneada lista para usar.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MIniPizetas.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PizetaConQueso.jpg"
                 },
                 "empanadasTradicionales": {
                   "titulo": "Empanadas Tradicionales",
                   "descripcion": "Variedades: Carne Suave, Pollo, Jamón y Queso, Verdura y Queso, Humita y Queso, Queso y Cebolla.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Empanadas.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Empanadas.jpg"
                 },
                 "pancitosChipsRellenos": {
                   "titulo": "Pancitos Chips Rellenos",
                   "descripcion": "Variedades: Jamón y Queso, Salame y Queso.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/ChipsJ&Q02.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/ChipsJ&Q02.jpg"
                 },
                 "PanSaborizado":{                 
                   "titulo": "Pan Saborizado",
                   "descripcion": "Con semillas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanSaborizado.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanSaborizado.jpg"
                   }
               },
               "opcinesDulces": {
                 "opcinesDulces": {
                   "titulo": "Brownie con nueces",
                   "descripcion": "Rectangular de chocolate con nueces.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Brownie.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Brownie.jpg"
                 },
                 "masitas": {
                   "titulo": "Masitas Surtidas",
                   "descripcion": "Masitas Surtidas secas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/CombosDeGalletitasDulces.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/CombosDeGalletitasDulces.jpg"
                 },
                 "galletas": {
                   "titulo": "Galletas Dulces",
                   "descripcion": "Galletitas Dulces.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Galletas01.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Galletas01.jpg"
                 },
                 "Patafloras": {
                   "titulo": "Pastafrola con membrillo",
                   "descripcion": "Pastafrola con membrillo.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Pastafrola.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Pastafrola.jpg"
                 }
 
               }
