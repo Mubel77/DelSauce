@@ -154,11 +154,6 @@
                   "descripcion": "Pequeños bagels ideales para sándwiches y picadas.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Buggle02.jpg"
                 },
-                "copetin": {
-                  "titulo": "Pan Copetin",
-                  "descripcion": "Pan Copetin ideales para sándwiches y picadas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Buggle04.jpg"
-                },
                 "cremonas": {
                   "titulo": "Cremonas",
                   "descripcion": "Pan hojaldrado típico, ideal para compartir.",
@@ -170,12 +165,12 @@
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/GalletaDeLibrito03.jpg"
                 },
                 "Pan":{                 
-                  "titulo": "Pan Minion",
+                  "titulo": "Pan Flautita",
                   "descripcion": "Con semillas.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanMinion.jpg"
                   },
                 "PanConSemillas":{                 
-                "titulo": "an Con semillas",
+                "titulo": "Pan Con semillas",
                 "descripcion": "Pan Con semillas.",
                 "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanConSemiilas.jpeg"
                 },
@@ -188,7 +183,12 @@
                     "titulo": "Pan Relleno",
                     "descripcion": "Con semillas.",
                     "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanSaborizado.jpg"
-                    }
+                    },
+                    "bagels":{                 
+                      "titulo": "Bagels",
+                      "descripcion": "Con semillas.",
+                      "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Bugles23.jpg"
+                      }
               },
               "sandwicheriaYCatering": {
                 "medialunasJYQ": {
@@ -202,7 +202,7 @@
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/SandwichDeJ&Q.jpg"
                 },
                 "sandwichesDeMigaTriplesMini": {
-                  "titulo": "Pan con semmilas relleno ",
+                  "titulo": "Pan con semilas relleno ",
                   "descripcion": "Clásicos sándwiches de copetin en diversas variedades.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanConSemmilasYRelleno.png"
                 },
@@ -231,11 +231,16 @@
                   "descripcion": "Variedades: Jamón y Queso, Salame y Queso.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/ChipsJ&Q02.jpg"
                 },
-                "PanSaborizado":{                 
+                "panSaborizado":{                 
                   "titulo": "Pan Saborizado",
                   "descripcion": "Con semillas.",
                   "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanSaborizado.jpg"
-                  }
+                  },
+                  "bagelsRellenos":{                 
+                    "titulo": "Bagels Rellnos",
+                    "descripcion": "Con semillas.",
+                    "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/BeagleRelleno.jpeg"
+                    }
               },
               "opcinesDulces": {
                 "opcinesDulces": {
@@ -246,7 +251,7 @@
                 "masitas": {
                   "titulo": "Masitas Surtidas",
                   "descripcion": "Masitas Surtidas secas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/CombosDeGalletitasDulces.jpg"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/GalletitasSurtidas.jpeg"
                 },
                 "galletas": {
                   "titulo": "Galletas Dulces",
