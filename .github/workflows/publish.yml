@@ -1,35 +1,36 @@
-name: Generate a build and deploy to Hostinger
+name: Generate a build and push to another branch
 
 on:
   push:
     branches:
-      - main  # La rama que detecta los cambios
+      - main # La rama en la que realizas los nuevos cambios
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-
+    name: Build and Push
     steps:
       # 1. Checkout del repositorio
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Instalar dependencias
-      - name: Install dependencies
-        run: npm install
+      # 2. Instalación de dependencias (descomentar si es necesario)
+      # - name: Install dependencies
+      #   run: npm install
 
-      # 3. Construir el proyecto Astro
-      - name: Build project
-        run: npm run build
+      # 3. Build del proyecto (descomentar si es necesario)
+      # - name: Build project
+      #   run: npm run build # Ajusta este comando según el build de tu proyecto
 
-      # 4. Configurar SSH
-      - name: Setup SSH Key
+      # 4. Persistir la carpeta dist y hacer push a otra rama
+      - name: Push built files to another branch
         run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.HOSTINGER_SSH_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H ssh.hostinger.com >> ~/.ssh/known_hosts
-
-      # 5. Subir carpeta dist a public_html
-      - name: Deploy to Hostinger
-        run: rsync -avz --delete ./dist/ usuario@ip-del-host:/home/usuario/public_html/
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch
+          git checkout main # Cambia por la rama donde quieres hacer el push
+          git add .
+          git commit -m "Build: ${{ github.sha }}"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
