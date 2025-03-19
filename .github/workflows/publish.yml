@@ -1,36 +1,39 @@
-name: Generate a build and push to another branch
+name: Generate a build and deploy to Hostinger
 
 on:
   push:
     branches:
-      - main # La rama en la que realizas los nuevos cambios
+      
+${{ github.ref_name }}  # La rama en la que detecta cambios
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build and Push
+    name: Build and Deploy
     steps:
       # 1. Checkout del repositorio
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      
+name: Checkout repository
+      uses: actions/checkout@v3
 
-      # 2. Instalación de dependencias (descomentar si es necesario)
-      # - name: Install dependencies
-      #   run: npm install
+      # 2. Instalar dependencias
+      
+name: Install dependencies
+      run: npm install
 
-      # 3. Build del proyecto (descomentar si es necesario)
-      # - name: Build project
-      #   run: npm run build # Ajusta este comando según el build de tu proyecto
+      # 3. Construir el proyecto
+      
+name: Build project
+      run: npm run build # Ajusta este comando según tu build
 
-      # 4. Persistir la carpeta dist y hacer push a otra rama
-      - name: Push built files to another branch
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch
-          git checkout main # Cambia por la rama donde quieres hacer el push
-          git add .
-          git commit -m "Build: ${{ github.sha }}"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # 4. Configurar la clave SSH desde Secrets
+      
+name: Push built files to another branch
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git fetch
+        git checkout ${{ github.ref_name }} # Cambia por la rama donde quieres hacer el push
+        git add .
+        git commit -m "Build: ${{ github.sha }}"
+        git push origin ${{ github.ref_name }}
