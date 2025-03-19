@@ -1,0 +1,35 @@
+name: Generate a build and deploy to Hostinger
+
+on:
+  push:
+    branches:
+      - main  # La rama que detecta los cambios
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout del repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Instalar dependencias
+      - name: Install dependencies
+        run: npm install
+
+      # 3. Construir el proyecto Astro
+      - name: Build project
+        run: npm run build
+
+      # 4. Configurar SSH
+      - name: Setup SSH Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.HOSTINGER_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ssh.hostinger.com >> ~/.ssh/known_hosts
+
+      # 5. Subir carpeta dist a public_html
+      - name: Deploy to Hostinger
+        run: rsync -avz --delete ./dist/ usuario@ip-del-host:/home/usuario/public_html/
