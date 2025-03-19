@@ -25,7 +25,7 @@
             ]
         },
           "carrusel": {
-              "titulo": "Mi Carrusel",
+              "titulo": "Mi Carrusel por dos",
               "imagenes": [
                   { "imagen": "/Product/DelSauce/imagesDelSauce/hero02.bmp", "titulo": "MEDIALUNAS DE MANTECA" },
                   { "imagen": "/Product/DelSauce/imagesDelSauce/BannerBronie.bmp", "titulo": "BROWNIE CON NUECES" },
