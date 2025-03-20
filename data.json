@@ -121,7 +121,7 @@
                 "FacturaConMembrillo": {
                   "titulo": "Factura con Membrillo",
                   "descripcion": "Factura con Membrillo: Sabrozo para la merienda.",
-                  "imagenPrincipal": "dist/Product/DelSauce/CategoriasDeProductos/FacturaConMenmbrillo02.JPG"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FacturaConMenmbrillo02.jpg"
                 },
                 "FacturaConPastelera": {
                   "titulo": "Factura con Pastelera",
