@@ -62,7 +62,7 @@
                 "titulo": "PANIFICACION PARA EVENTOS ",
                 "descripcion": "Realizamos pedidos personalizados para cualquier ocasión. Contáctanos para más detalles.",
                 "imagenes": [
-                    { "imagen": "/Product/DelSauce/imagesDelSauce/panificacionDeEventos.png" }
+                    { "imagen": "/Product/DelSauce/imagesDelSauce/Panaificacion.png" }
                 ],
                 "boton": "VER"
                 },
@@ -70,7 +70,7 @@
                 "titulo": "SERVICIO DE LUNCH",
                 "descripcion": "Llevamos tus productos favoritos hasta tu puerta con nuestro servicio de delivery.",
                 "imagenes": [
-                    { "imagen": "/Product/DelSauce/imagesDelSauce/sandwich.bmp" }
+                    { "imagen": "/Product/DelSauce/imagesDelSauce/theLunch.png" }
                 ],
                 "boton": "VER"
                 },
@@ -78,7 +78,7 @@
                   "titulo": "SERVICIO DE DULCES",
                   "descripcion": "Llevamos tus productos favoritos hasta tu puerta con nuestro servicio de delivery.",
                   "imagenes": [
-                      { "imagen": "/Product/DelSauce/imagesDelSauce/imagesBrownie.png" }
+                      { "imagen": "/Product/DelSauce/imagesDelSauce/OpcionDulces.png" }
                   ],
                   "boton": "VER"
                   }
