@@ -126,18 +126,18 @@
                 "FacturaConPastelera": {
                   "titulo": "Factura con Pastelera",
                   "descripcion": "Factura con Pastelera: Sabrozo para la merienda.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FacturaConPastelera.jpg"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FacturaConPastelera.JPG"
                 },
                 "figacitasDeManteca": {
                   "titulo": "Figacitas de Manteca",
                   "descripcion": "Pequeñas figacitas de manteca, perfectas para acompañar cualquier comida.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Figacitas022.jpg"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Figacitas022.JPG"
                 },
 
                 "fosforitosDeHojaldre": {
                   "titulo": "Fosforitos de Hojaldre",
                   "descripcion": "Crujientes bocados de hojaldre, ideales para reuniones y meriendas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FacturaDeOjaldre.jpg"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FacturaDeOjaldre.JPG"
                 },
                 "pizzetas": {
                   "titulo": "Prepizza",
@@ -147,7 +147,7 @@
                 "prepizzas": {
                   "titulo": "Pizzetas",
                   "descripcion": "Masa de pizza prehorneada lista para usar.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MIniPizetas.jpg"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/MIniPizetas.JPG"
                 },
                 "miniPebete": {
                   "titulo": "Pebetes",
@@ -157,17 +157,17 @@
                 "cremonas": {
                   "titulo": "Cremonas",
                   "descripcion": "Pan hojaldrado típico, ideal para compartir.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Cremona.jpg"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Cremona.JPG"
                 },
                 "criollitosDeGrasa": {
                   "titulo": "Criollitos de Grasa",
                   "descripcion": "Clásicos criollitos de grasa, perfectos para el mate.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/GalletaDeLibrito03.jpg"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/GalletaDeLibrito03.JPG"
                 },
                 "Pan":{                 
                   "titulo": "Pan Flautita",
                   "descripcion": "Con semillas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanMinion.jpg"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanMinion.JPG"
                   },
                 "PanConSemillas":{                 
                 "titulo": "Pan Con semillas",
@@ -182,7 +182,7 @@
                   "PanSaborizado":{                 
                     "titulo": "Pan Relleno",
                     "descripcion": "Con semillas.",
-                    "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanSaborizado.jpg"
+                    "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanSaborizado.JPG"
                     },
                     "bagels":{                 
                       "titulo": "Bagels",
@@ -209,12 +209,12 @@
                 "sandwichesConSemmilas": {
                   "titulo": "Sándwiches en Figacitas ",
                   "descripcion": "Clásicos sándwiches de copetin en diversas variedades.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Figacitasrellenas.jpg"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Figacitasrellenas.JPG"
                 },
                 "fosforitosDeHojaldreRellenosDeJamonYQueso": {
                   "titulo": "Fosforitos Rellenos",
                   "descripcion": "Hojaldre crujiente con relleno de jamón y queso.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FosforitosdeJ&Q04.jpg"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/FosforitosdeJ&Q04.JPG"
                 },
                 "prepizzas": {
                   "titulo": "pizzetas y prepizas prelistass",
@@ -224,7 +224,7 @@
                 "empanadasTradicionales": {
                   "titulo": "Empanadas Tradicionales",
                   "descripcion": "Variedades: Carne Suave, Pollo, Jamón y Queso, Verdura y Queso, Humita y Queso, Queso y Cebolla.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Empanadas.jpg"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Empanadas.JPG"
                 },
                 "pancitosChipsRellenos": {
                   "titulo": "Pancitos Chips Rellenos",
@@ -234,7 +234,7 @@
                 "panSaborizado":{                 
                   "titulo": "Pan Saborizado",
                   "descripcion": "Con semillas.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanSaborizado.jpg"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/PanSaborizado.JPG"
                   },
                   "bagelsRellenos":{                 
                     "titulo": "Bagels Rellnos",
@@ -256,7 +256,7 @@
                 "galletas": {
                   "titulo": "Galletas Dulces",
                   "descripcion": "Galletitas Dulces.",
-                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Galletas01.jpg"
+                  "imagenPrincipal": "/Product/DelSauce/CategoriasDeProductos/Galletas01.JPG"
                 },
                 "Patafloras": {
                   "titulo": "Pastafrola con membrillo",
