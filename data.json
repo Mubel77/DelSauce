@@ -313,6 +313,6 @@
     },
     "catalogo":{
       "catalogo":"/DelSauceMenu.pdf",
-       "catalogoImagen": "./pdf02.png"
+       "catalogoImagen": "/dist/pdf02.png"
     }
 }
