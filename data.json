@@ -288,7 +288,7 @@
             "imagenDireccion": "/Product/DelSauce/imagesDelSauce/ubicacion.png"
           },
           "navbar": [
-            { "link": "/", "titulo": "Inicio" },
+            { "link": "", "titulo": "Inicio" },
             { "link": "nosotros", "titulo": "Sobre Nosotros" },
             { "link": "Servicios", "titulo": "Servicios" },
             { "link": "productos", "titulo": "Productos" },
