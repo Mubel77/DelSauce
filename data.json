@@ -292,7 +292,7 @@
             { "link": "nosotros", "titulo": "Sobre Nosotros" },
             { "link": "Servicios", "titulo": "Servicios" },
             { "link": "productos", "titulo": "Productos" },
-            { "link": "Cosulta", "titulo": "Contacto" }
+            { "link": "Consulta", "titulo": "Contacto" }
           ],
           "redes_sociales": [
             {
