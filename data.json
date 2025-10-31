@@ -268,13 +268,13 @@
     },
       "dataContact": {
         "titulo": "Ubicación",
-        "telefono": "1166505422",
+        "telefono": "1124881416",
         "imagenTelefono": "/Product/DelSauce/imagesDelSauce/telefono.png",
         "email": "infodelsauce@gmail.com",
         "imagenEmail": "/Product/DelSauce/imagesDelSauce/cirreoElectronoico.png",
         "mapsDireccion": "Julio Omar Benitez 4242",
         "imagenDireccion": "/Product/DelSauce/imagesDelSauce/mapa.png",
-        "maps": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.6846857917794!2d-58.4708649248526!3d-34.66266526061271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc95e0430bcbf%3A0x3006df7d228684c6!2sBenitez%20Julio%20Omar%204242%2C%20C1439%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1741028028369!5m2!1ses!2sar"
+        "maps": "https://www.google.com/maps"
       },
         "footer": {
           "logo": "/Product/DelSauce/imagesDelSauce/LogoSauce.svg",
@@ -282,7 +282,7 @@
           "contacto": {
             "telefono": "+11 6650-5422",
             "imagenTelefono": "/Product/DelSauce/imagesDelSauce/telefono02.png",
-            "email": "infodelsauce@gmail.com",
+            "email": "mauricioabelcuellar@gmail.com",
             "imagenEmail": "/Product/DelSauce/imagesDelSauce/correoElectronico.png",
             "direccion": "Julio Omar Benitez 4242, Buenos Aires",
             "imagenDireccion": "/Product/DelSauce/imagesDelSauce/ubicacion.png"
@@ -297,18 +297,18 @@
           "redes_sociales": [
             {
               "nombre": "Instagram",
-              "link": "https://instagram.com/del_sauce",
+              "link": "https://instagram.com/",
               "imagen": "/Product/DelSauce/imagesDelSauce/icono_instagram.png"
             },
             {
               "nombre": "Facebook",
-              "link": "https://facebook.com/del_sauce",
+              "link": "https://facebook.com/",
               "imagen": "/Product/DelSauce/imagesDelSauce/icono_facebook.png"
             }
           ]
         },      
     "whatsapp":{
-        "whatsapp": "https://api.whatsapp.com/send?phone=5491166505422",
+        "whatsapp": "https://api.whatsapp.com/send?phone=5491124881416",
         "whatsappImagen":"/whatsapp.svg"
     },
     "catalogo":{
